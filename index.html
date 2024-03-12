@@ -10,22 +10,86 @@
     <title>Shameen Dilusha</title>
 
     <style>
+
+        body{
+            background: #1B1A55;
+        }
+
         /*Header*/
         nav {
-            background-color: #333; /* Background color of the navigation bar */
-            padding: 10px; /* Padding around the navigation links */
-            text-align: right; /* Align the navigation links to the right */
+            background-color: #333;
+            padding: 10px;
+            text-align: right;
         }
 
         nav a {
-            color: #fff; /* Text color of the navigation links */
-            text-decoration: none; /* Remove underline from links */
-            margin: 0 10px; /* Add margin between links */
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
         }
 
         nav a:hover {
             text-decoration: underline; /* Underline links on hover */
         }
+
+
+        /*Home Section*/
+        .home-content {
+            max-width: 1000px;
+            position: absolute;
+            left: 200px;
+            top: 100px;
+
+        }
+
+        .home-content h1 {
+            color: white;
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .home-content h3 {
+            color: white;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .home-content p {
+            color: white;
+            font-size: 20px;
+            margin: 20px 0 40px;
+
+        }
+
+        .social-links{
+            position: absolute;
+            left: 30px;
+            top: 220px;
+            line-height: 3.5;
+
+            margin-right: 10px;
+        }
+
+        /* Style for the home right side */
+        .my-profile {
+            text-align: right;
+            padding: 0;
+        }
+
+        .my-profile img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            vertical-align: top; /* Align images to the top */
+        }
+
+
+
+
+
+
+
 
 
 
@@ -54,8 +118,8 @@
 <section>
 
     <!--Home left side-->
-    <div>
-        <h1 id="home">Hello I'm Shameen <br> Dilusha</h1>
+    <div class="home-content">
+        <h1>Hello I'm Shameen <br> Dilusha</h1>
 
         <h3>Software Engineering Student</h3>
 
@@ -69,7 +133,7 @@
 
     <br>
 
-    <div>
+    <div class="social-links">
         <a href="https://www.linkedin.com/in/shameen-dilusha-0301a127a">
             <img src="assets/images/linkedin.png" title="linkedin.com" alt="linkedin-logo" width="50">
         </a>
@@ -99,9 +163,8 @@
 
 
     <!--Home right side-->
-    <div>
-        <img src="assets/images/my%20profile.png" title="shameen.lk" alt="myprofile-logo" width="500"> <br>
-        <img src="assets/images/under%20the%20profile.png" title="shameen.lk" alt="myprofile-logo" width="300"> <br>
+    <div class="my-profile">
+        <img src="assets/images/my-profile.png" title="shameen.lk" alt="my-profile" width="500"> <br>
     </div>
 
 
