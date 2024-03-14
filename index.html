@@ -618,6 +618,81 @@
         }
 
 
+        /*Skill Section*/
+        .skill-content{
+            max-width: 1000px;
+            position: relative;
+            margin: 0 auto;
+            padding-top: 0;
+        }
+
+        .skill-content h1{
+            color: white;
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        .my-skill{
+            max-width: 1000px;
+            position: relative;
+            left: 100px;
+            top: 100px;
+            margin-top: -100px;
+        }
+
+        .my-skill h3{
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 2;
+        }
+
+        .lines {
+            max-width: 1000px;
+            position: relative;
+            padding-top: 0;
+            margin-top: -285px;
+
+        }
+
+        .lines hr {
+            color: white;
+            line-height: 50px; /* Adjust line height as needed */
+            margin-bottom: 60px; /* Add spacing between lines */
+            margin-left: 90px;
+
+        }
+
+
+        .skill-logo{
+            width: 550px;
+            height: 550px;
+            border-radius: 100%;
+            background-color: gray;
+            text-align: center;
+            margin: 0 auto 40px;
+            padding: 20px;
+            margin-left: 650px;
+            margin-top: -600px;
+        }
+
+        .skill-logo img{
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -903,27 +978,37 @@
 <!--Skills Section-->
 <section>
     <!--Skills topic-->
-    <div>
+    <div class="skill-content">
         <h1 id="skills">Skills</h1>
     </div>
 
     <br>
 
     <!--Skills left side-->
-    <div>
-        <h3>JAVA</h3> <hr width="500" color="black" >
-        <h3>MYSQL</h3> <hr width="500" color="black" >
-        <h3>JAVAFX</h3> <hr width="500" color="black" >
-        <h3>HIBERNATE</h3> <hr width="500" color="black" >
-        <h3>HTML</h3> <hr width="500" color="black" >
-        <h3>CSS</h3> <hr width="500" color="black" >
-        <h3>JAVASCRIPT</h3> <hr width="500" color="black" >
+    <div class="my-skill">
+        <h3>JAVA</h3>
+        <h3>MYSQL</h3>
+        <h3>JAVAFX</h3>
+        <h3>HIBERNATE</h3>
+        <h3>HTML</h3>
+        <h3>CSS</h3>
+        <h3>JAVASCRIPT</h3>
+    </div>
+
+    <div class="lines">
+        <hr width="500" >
+        <hr width="500" >
+        <hr width="500" >
+        <hr width="500" >
+        <hr width="500" >
+        <hr width="500" >
+        <hr width="500" >
     </div>
 
     <br><br><br>
 
     <!--Skills right side-->
-    <div>
+    <div class="skill-logo" >
         <img src="assets/images/hibernate.png" title="hibernate-logo" alt="hibernate-logo" width="100"> <br><br><br>
         <img src="assets/images/java-logo-1.png" title="java-logo" alt="java-logo" width="100"> <br><br><br>
         <img src="assets/images/mysql.png" title="mysql-logo" alt="mysql-logo" width="100"> <br><br>
