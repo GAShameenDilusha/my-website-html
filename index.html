@@ -762,90 +762,71 @@
             text-align: center;
         }
 
-        .fill-contact{
+
+        .form-card {
+            position: relative;
+            margin-left: 140px;
+            background-color: #333; /* Set a background color for the card */
+            padding: 20px; /* Add some padding for spacing between content and card edges */
+            border-radius: 10px; /* Add rounded corners */
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a drop shadow for depth */
+            max-width: 1000px; /* Set a maximum width for the card */
+        }
+
+        .fill-contact {
             max-width: 1000px;
             position: relative;
             margin-left: 5px;
             padding-top: 0;
         }
 
-        .fill-contact h3{
+        .fill-contact h3 {
             color: white;
             font-size: 25px;
             font-weight: 700;
             line-height: 1.2;
             text-align: left;
+            margin-bottom: 20px; /* Add some spacing between the heading and the form fields */
         }
 
-        .name{
+        .name,
+        .email,
+        .message,
+        .submit {
             max-width: 1000px;
             position: relative;
             margin-left: 5px;
             padding-top: 0;
+            margin-bottom: 20px; /* Add some spacing between form fields */
         }
 
-        .name label{
+        .name label,
+        .email label,
+        .message label {
             color: white;
             font-size: 20px;
             font-weight: 700;
             line-height: 1.2;
             text-align: left;
+            display: block; /* Make the labels block-level elements */
+            margin-bottom: 5px; /* Add some spacing between the label and input */
         }
 
-        .name input{
-
+        .name input,
+        .email input,
+        .message textarea {
+            width: 100%; /* Make the inputs and textarea full-width */
+            padding: 10px; /* Add some padding for better readability */
+            border: 1px solid #ccc; /* Add a border for better visual separation */
+            border-radius: 5px; /* Add rounded corners */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
         }
 
-        .email{
-            max-width: 1000px;
-            position: relative;
-            margin-left: 5px;
-            padding-top: 0;
-        }
-
-        .email label{
-            color: white;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 1.2;
-            text-align: left;
-        }
-
-        .email input{
-
-        }
-
-        .message{
-            max-width: 1000px;
-            position: relative;
-            margin-left: 5px;
-            padding-top: 0;
-        }
-
-        .message label{
-            color: white;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 1.2;
-            text-align: left;
-        }
-
-        .message textarea{
-
-        }
-
-        .submit{
-            max-width: 1000px;
-            position: relative;
-            margin-left: 5px;
-            padding-top: 0;
-        }
-
-        .submit button{
+        .submit button {
             background-color: #ffffff;
             color: #000000;
             border: none;
-            padding: 5px 20px;
+            padding: 10px 20px;
             border-radius: 10px;
             cursor: pointer;
             margin-top: 20px;
@@ -1260,42 +1241,42 @@
 
 <!--Contact Section-->
 <form>
-
     <div class="contact-content">
         <h1 id="contact">Contact</h1>
     </div>
 
-    <div class="fill-contact">
-        <h3>Fill in the form below to book a consultation with me</h3>
+    <div class="form-card">
+        <div class="fill-contact">
+            <h3>Fill in the form below to book a consultation with me</h3>
+        </div>
+
+        <br>
+
+        <div class="name">
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" placeholder="Enter your name" value="Enter your name">
+        </div>
+
+        <br>
+
+        <div class="email">
+            <label for="email">Email</label> <br>
+            <input type="text" id="email"  placeholder="Enter your email" value="Enter your email">
+        </div>
+
+        <br>
+
+        <div class="message">
+            <label for="message">Message</label> <br>
+            <textarea id="message" placeholder="Enter your message" rows="10" cols="50"></textarea>
+        </div>
+
+        <br>
+
+        <div class="submit">
+            <button type="submit">Submit</button>
+        </div>
     </div>
-
-    <br>
-
-    <div class="name">
-        <label for="name">Name</label> <br>
-        <input type="text" id="name" placeholder="Enter your name" value="Enter your name">
-    </div>
-
-    <br>
-
-    <div class="email">
-        <label for="email">Email</label> <br>
-        <input type="text" id="email"  placeholder="Enter your email" value="Enter your email">
-    </div>
-
-    <br>
-
-    <div class="message">
-        <label for="message">Message</label> <br>
-        <textarea id="message" placeholder="Enter your message" rows="10" cols="50"></textarea>
-    </div>
-
-    <br>
-
-    <div class="submit">
-        <button type="submit">Submit</button>
-    </div>
-
 </form>
 
 <br><br><br><br>
