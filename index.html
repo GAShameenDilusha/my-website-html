@@ -15,7 +15,9 @@
         body{
             /*background: #0a2351;*/
             background-color: hsl(240, 100%, 15%);
+            overflow-x: hidden;
         }
+
 
         /*Header*/
         nav {
@@ -62,7 +64,7 @@
             color: white;
             font-size: 20px;
             margin: 20px 0 40px;
-
+            position: absolute;
         }
 
         .social-links{
@@ -908,7 +910,11 @@
             }
         }
 
-
+        @media all and (max-width: 720px) {
+            .home-content p {
+                top: 599px;
+            }
+        }
 
 
 
