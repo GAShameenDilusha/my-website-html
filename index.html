@@ -41,23 +41,27 @@
         /*Home Section*/
         .home-content {
             max-width: 1000px;
-            position: absolute;
+            position: relative;
             left: 200px;
             top: 100px;
 
         }
 
         .home-content h1 {
+            position: absolute;
             color: white;
             font-size: 80px;
             font-weight: 700;
             line-height: 1.2;
+            top: -50px;
         }
 
         .home-content h3 {
+            position: absolute;
             color: white;
             font-size: 40px;
             font-weight: 700;
+            top: 220px;
         }
 
         .home-content p {
@@ -65,6 +69,7 @@
             font-size: 20px;
             margin: 20px 0 40px;
             position: absolute;
+            top: 320px;
         }
 
         .social-links{
@@ -910,13 +915,24 @@
             }
         }
 
-        @media all and (max-width: 720px) {
-            .home-content p {
+        @media all and (max-width: 768px) {
+            .home-content  p{
                 top: 599px;
             }
         }
 
+        @media all and (max-width: 768px) {
+            .home-content h1{
+                top: 700px;
+            }
+        }
 
+
+        @media all and (max-width: 768px) {
+            .home-content h3{
+                top: 599px;
+            }
+        }
 
     </style>
 
