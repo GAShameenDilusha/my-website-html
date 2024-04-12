@@ -1,0 +1,1236 @@
+body{
+    /*background: #0a2351;*/
+    background-color: hsl(240, 100%, 15%);
+    overflow-x: hidden;
+}
+
+
+/*Header*/
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+
+/*Home Section*/
+.home-content {
+    max-width: 1000px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+
+}
+
+.home-content h1 {
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    top: -50px;
+}
+
+.home-content h3 {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    top: 220px;
+}
+
+.home-content p {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 40px;
+    position: absolute;
+    top: 320px;
+}
+
+.social-links{
+    position: absolute;
+    left: 30px;
+    top: 220px;
+    line-height: 3.5;
+
+    margin-right: 10px;
+}
+
+.my-profile {
+    text-align: right;
+    padding: 0;
+}
+
+.my-profile img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    vertical-align: top; /* Align images to the top */
+}
+
+
+
+
+/* About me Section */
+.about-content {
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.about-content h1 {
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    top: 10px;
+    left: 350px;
+}
+
+.progamming-logo img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    vertical-align: top;
+    top: 1100px;
+    left: 10px;
+}
+
+.my-details {
+    position: absolute;
+    float: right;
+    margin-top: -400px;
+    margin-right: 100px;
+}
+
+.my-details h3 {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin: 1px 0 40px;
+    top: 660px;
+    left: 800px;
+
+}
+
+
+
+
+/*Project Section*/
+.project-content {
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.project-content h1 {
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    top: 700px;
+    left: 350px;
+}
+
+.church-logo {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #2E97A7, #E6B9DE);
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-top: 58px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    top: 1780px;
+    left: 500px;
+
+}
+
+.church-logo img{
+    max-width: 100px;
+    margin-top: 40px;
+}
+
+.church-logo h3{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.church-logo button{
+    background: linear-gradient(to bottom, #352CFF, #C95E5EA1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.store-logo{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #2E97A7, #E6B9DE);
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    top: 1840px;
+    margin-left: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+.store-logo img {
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.store-logo h3{
+    color: black;
+    font-size: 50px;
+    margin-top: 85px;
+}
+
+.store-logo button{
+    background: linear-gradient(to bottom, #352CFF, #C95E5EA1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+.chat-logo{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #2E97A7, #E6B9DE);
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    top: 1840px;
+    left: 980px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;        }
+
+.chat-logo img{
+    max-width: 100px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.chat-logo h3{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.chat-logo button{
+    background: linear-gradient(to bottom, #352CFF, #C95E5EA1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 120px;
+}
+
+
+.before-after {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    padding-top: 0;
+    top: 1450px;
+}
+
+.before-after img {
+    max-width: 50px;
+    margin: 0 10px;
+    position: relative;
+    top: -200px;
+}
+
+
+
+
+/*Assignment Section*/
+.assignment-content{
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.assignment-content h1{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 150px;
+    top: 1250px;
+    left: 300px;
+}
+
+/*assignment1*/
+.assignment1{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-left: 20px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    /*box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;*/
+    /*
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    */
+    top: 2770px;
+}
+
+.assignment1 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment1 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment2*/
+.assignment2{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-left: 370px;
+    margin-top: -220px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 2990px;
+}
+
+.assignment2 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment2 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment3*/
+.assignment3{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-right: 370px;
+    margin-top: -220px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 2990px;
+    right: 10px;
+}
+
+.assignment3 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment3 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment4*/
+.assignment4{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: -220px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 2990px;
+    right: 10px;
+}
+
+.assignment4 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment4 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment5*/
+.assignment5{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-left: 20px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 2980px;
+}
+
+.assignment5 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment5 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment6*/
+.assignment6{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-left: 370px;
+    margin-top: -220px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 3200px;        }
+
+.assignment6 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment6 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment7*/
+.assignment7{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-right: 370px;
+    margin-top: -220px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 3200px;
+    right: 10px;
+}
+
+.assignment7 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment7 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment8*/
+.assignment8{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: -220px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 3200px;
+    right: 10px;
+}
+
+.assignment8 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment8 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment9*/
+.assignment9{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-left: 20px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 3182px;
+}
+
+.assignment9 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment9 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment10*/
+.assignment10{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-left: 370px;
+    margin-top: -220px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 3400px;
+}
+
+.assignment10 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment10 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment11*/
+.assignment11{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-right: 370px;
+    margin-top: -220px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 3400px;
+    right: 10px;
+}
+
+.assignment11 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment11 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+/*assignment12*/
+.assignment12{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: -220px;
+    background: linear-gradient(to bottom, #2E97A7, #2E97A700);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 3400px;
+    right: 10px;
+}
+
+.assignment12 h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.assignment12 button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FF4848, #4942E4);
+}
+
+
+/*Skill Section*/
+.skill-content{
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.skill-content h1{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    top: 1900px;
+    left: 400px;
+}
+
+.my-skill{
+    max-width: 1000px;
+    position: relative;
+    left: 100px;
+    top: 2200px;
+    margin-top: -100px;
+}
+
+.my-skill h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.lines {
+    max-width: 1000px;
+    position: relative;
+    padding-top: 0;
+    margin-top: -285px;
+    top: 2100px;
+}
+
+.lines hr {
+    color: white;
+    line-height: 50px; /* Adjust line height as needed */
+    margin-bottom: 60px; /* Add spacing between lines */
+    margin-left: 90px;
+
+}
+
+
+.skill-logo{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, #FFFFFF, #FFFFFF00);
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 20px;
+    margin-left: 650px;
+    margin-top: -600px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    top: 4250px;
+}
+
+.skill-logo img{
+
+}
+
+
+/*Gallery Section*/
+.gallery-content{
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.gallery-content h1{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    top: 2100px;
+    left: 400px;
+}
+
+.my-musicimg{
+    position: relative;
+    padding: 20px;
+    top: 2350px;
+}
+
+.my-musicimg img{
+    margin: 0 40px;
+}
+
+.before-after2 {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    padding-top: 0;
+    top: 2350px;
+}
+
+.before-after2 img {
+    max-width: 50px;
+    margin: 0 10px;
+    position: relative;
+    top: -5px;
+}
+
+
+
+
+/*contact Section*/
+.contact-content{
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.contact-content h1{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    top: 2350px;
+    left: 350px;
+}
+
+
+.form-card {
+    position: relative;
+    margin-left: 140px;
+    border: 5px solid gray;
+    padding: 20px; /* Add some padding for spacing between content and card edges */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a drop shadow for depth */
+    max-width: 1000px; /* Set a maximum width for the card */
+    top: 2600px;
+}
+
+.fill-contact {
+    max-width: 1000px;
+    position: relative;
+    margin-left: 5px;
+    padding-top: 0;
+}
+
+.fill-contact h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 20px; /* Add some spacing between the heading and the form fields */
+}
+
+.name,
+.email,
+.message,
+.submit {
+    max-width: 1000px;
+    position: relative;
+    margin-left: 5px;
+    padding-top: 0;
+    margin-bottom: 20px; /* Add some spacing between form fields */
+}
+
+.name label,
+.email label,
+.message label {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    display: block; /* Make the labels block-level elements */
+    margin-bottom: 5px; /* Add some spacing between the label and input */
+}
+
+.name input,
+.email input,
+.message textarea {
+    width: 100%; /* Make the inputs and textarea full-width */
+    padding: 10px; /* Add some padding for better readability */
+    border: 1px solid #ccc; /* Add a border for better visual separation */
+    border-radius: 5px; /* Add rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.submit button {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #5048FF, #C95E5E);
+}
+
+
+
+/*footer Section*/
+.f-all-links{
+    position: relative;
+    left: 500px;
+    top: 2700px;
+}
+
+.f-linkdin{
+    position: relative;
+}
+
+.f-youtube{
+    position: relative;
+    left: 60px;
+    bottom: 35px;
+
+}
+
+.f-instagram{
+    position: relative;
+    left: 120px;
+    bottom: 68px;
+}
+
+.f-facebook{
+    position: relative;
+    left: 180px;
+    bottom: 102px;
+}
+
+.f-gitgub{
+    position: relative;
+    left: 240px;
+    bottom: 134px;
+}
+
+.f-tiktok{
+    position: relative;
+    left: 300px;
+    bottom: 169px;
+}
+
+
+.copyright{
+    p{
+        position: relative;
+        right: 50px;
+        bottom: 150px;
+        color: whitesmoke;
+
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .home-content h1{
+        top: 550px;
+        left: -165px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .home-content h3{
+        top: 780px;
+        left: -165px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .home-content  p{
+        top: 890px;
+        left: -165px;
+    }
+}
+
+
+/*About me*/
+@media all and (max-width: 768px) {
+    .about-content h1{
+        top: 500px;
+        left: 175px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .progamming-logo img{
+        top: 1550px;
+        left: 70px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .my-details h3{
+        top: 1600px;
+        left: 165px;
+    }
+}
+
+
+/*Project section*/
+@media all and (max-width: 768px) {
+    .project-content h1{
+        top: 1600px;
+        left: 200px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .home-content  p{
+        top: 890px;
+        left: -165px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .store-logo  {
+        top: 2700px;
+        left: 1px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .church-logo {
+        top: 2640px;
+        left: 380px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .chat-logo {
+        top: 3300px;
+        left: 200px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .before-after {
+        top: 2900px;
+    }
+}
+
+
+
+/*Assignment section*/
+@media all and (max-width: 768px) {
+    .assignment-content h1{
+        top: 2700px;
+        left: 165px;
+    }
+}
+
+
+
+@media all and (max-width: 768px) {
+    .assignment1 {
+        top: 4200px;
+        left: 50px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment2 {
+        top: 4420px;
+        left: 50px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment3 {
+        top: 4620px;
+        right: 55px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment4 {
+        top: 4625px;
+        right: 55px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment5 {
+        top: 4615px;
+        left: 55px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment6 {
+        top: 4840px;
+        right: 70px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment7 {
+        top: 5055px;
+        right: 55px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment8 {
+        top: 5055px;
+        right: 50px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment9 {
+        top: 5055px;
+        left: 70px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment10 {
+        top: 5280px;
+        right: 65px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment11 {
+        top: 5500px;
+        right: 65px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment12 {
+        top: 5500px;
+        right: 50px;
+    }
+}
+
+
+/*Skills Section*/
+@media all and (max-width: 768px) {
+    .skill-content h1 {
+        top: 4000px;
+        right: 300px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .my-skill {
+        top: 4299px;
+        left: 150px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .lines {
+        top: 4190px;
+        left: 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .skill-logo {
+        top: 6900px;
+        right: 50px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .gallery-content h1 {
+        top: 4800px;
+        left: 250px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .my-musicimg {
+        top: 5000px;
+        left: 150px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .before-after2 {
+        top: 4980px;
+        right: 10px;
+    }
+}
+
+
+/*contact section*/
+@media all and (max-width: 768px) {
+    .contact-content h1{
+        top: 4950px;
+        left: 250px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .form-card {
+        top: 5099px;
+        right: 70px;
+    }
+}
+
+/*footer*/
+@media all and (max-width: 768px) {
+    .f-all-links {
+        top: 5100px;
+        left: 220px;
+    }
+}
+
+
+
