@@ -1232,5 +1232,275 @@ nav a:hover {
     }
 }
 
+/*/////////////////////////////////////////////////////////////////////////////////////*/
 
+
+
+
+@media all and (max-width: 1024px) {
+    .home-content h1{
+        top: 550px;
+        left: -165px;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .home-content h3{
+        top: 780px;
+        left: -165px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .home-content  p{
+        top: 890px;
+        left: -165px;
+    }
+}
+
+
+/*About me*/
+@media all and (max-width: 768px) {
+    .about-content h1{
+        top: 500px;
+        left: 175px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .progamming-logo img{
+        top: 1550px;
+        left: 70px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .my-details h3{
+        top: 1600px;
+        left: 165px;
+    }
+}
+
+
+/*Project section*/
+@media all and (max-width: 768px) {
+    .project-content h1{
+        top: 1600px;
+        left: 200px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .home-content  p{
+        top: 890px;
+        left: -165px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .store-logo  {
+        top: 2700px;
+        left: 1px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .church-logo {
+        top: 2640px;
+        left: 380px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .chat-logo {
+        top: 3300px;
+        left: 200px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .before-after {
+        top: 2900px;
+    }
+}
+
+
+
+/*Assignment section*/
+@media all and (max-width: 768px) {
+    .assignment-content h1{
+        top: 2700px;
+        left: 165px;
+    }
+}
+
+
+
+@media all and (max-width: 768px) {
+    .assignment1 {
+        top: 4200px;
+        left: 50px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment2 {
+        top: 4420px;
+        left: 50px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment3 {
+        top: 4620px;
+        right: 55px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment4 {
+        top: 4625px;
+        right: 55px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment5 {
+        top: 4615px;
+        left: 55px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment6 {
+        top: 4840px;
+        right: 70px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment7 {
+        top: 5055px;
+        right: 55px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment8 {
+        top: 5055px;
+        right: 50px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment9 {
+        top: 5055px;
+        left: 70px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment10 {
+        top: 5280px;
+        right: 65px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .assignment11 {
+        top: 5500px;
+        right: 65px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .assignment12 {
+        top: 5500px;
+        right: 50px;
+    }
+}
+
+
+/*Skills Section*/
+@media all and (max-width: 768px) {
+    .skill-content h1 {
+        top: 4000px;
+        right: 300px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .my-skill {
+        top: 4299px;
+        left: 150px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .lines {
+        top: 4190px;
+        left: 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .skill-logo {
+        top: 6900px;
+        right: 50px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .gallery-content h1 {
+        top: 4800px;
+        left: 250px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .my-musicimg {
+        top: 5000px;
+        left: 150px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .before-after2 {
+        top: 4980px;
+        right: 10px;
+    }
+}
+
+
+/*contact section*/
+@media all and (max-width: 768px) {
+    .contact-content h1{
+        top: 4950px;
+        left: 250px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .form-card {
+        top: 5099px;
+        right: 70px;
+    }
+}
+
+/*footer*/
+@media all and (max-width: 768px) {
+    .f-all-links {
+        top: 5100px;
+        left: 220px;
+    }
+}
 
