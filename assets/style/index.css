@@ -1421,6 +1421,38 @@ nav a:hover {
     }
 }
 
+
+/*!*Skills Section*!*/
+@media all and (max-width: 1024px) {
+    .skill-content h1 {
+        top: 2750px;
+        right: 300px;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .my-skill {
+        top: 3000px;
+        left: 50px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .lines {
+        top: 2900px;
+        left: -200px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .skill-logo {
+        top: 5090px;
+        right: 10px;
+    }
+}
+
+
 /*
 
 
@@ -1439,35 +1471,7 @@ nav a:hover {
 
 
 
-!*Skills Section*!
-@media all and (max-width: 1024px) {
-    .skill-content h1 {
-        top: 4000px;
-        right: 300px;
-    }
-}
 
-
-@media all and (max-width: 1024px) {
-    .my-skill {
-        top: 4299px;
-        left: 150px;
-    }
-}
-
-@media all and (max-width: 1024px) {
-    .lines {
-        top: 4190px;
-        left: 50px;
-    }
-}
-
-@media all and (max-width: 1024px) {
-    .skill-logo {
-        top: 6900px;
-        right: 50px;
-    }
-}
 
 
 @media all and (max-width: 1024px) {
