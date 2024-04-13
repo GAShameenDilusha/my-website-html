@@ -1452,25 +1452,25 @@ nav a:hover {
     }
 }
 
-
+/*gallery section*/
 @media all and (max-width: 1024px) {
     .gallery-content h1 {
-        top: 4800px;
-        left: 250px;
+        top: 3040px;
+        left: 380px;
     }
 }
 
 @media all and (max-width: 1024px) {
     .my-musicimg {
-        top: 5000px;
-        left: 150px;
+        top: 3190px;
+        left: 60px;
     }
 }
 
 @media all and (max-width: 1024px) {
     .before-after2 {
-        top: 4980px;
-        right: 10px;
+        top: 3180px;
+        right: -10px;
     }
 }
 
