@@ -1268,62 +1268,34 @@ nav a:hover {
     }
 }
 
-/*@media all and (max-width: 1024px) {
-    .my-profile {
-        left: 78px;
-    }
-}
-
-
-@media all and (max-width: 1024px) {
-    .home-content h1{0
-        left: -170px;
-    }
-}
-
-
-@media all and (max-width: 1024px) {
-    .home-content h3{
-        left: -170px;
-    }
-}
-
-@media all and (max-width: 1024px) {
-    .home-content p{
-        left: -165px;
-    }
-}
-
-@media all and (max-width: 1024px) {
-    .social-links {
-        top: 600px;
-        left: 30px;
-    }
-}
-
-
-
-!*About me*!
+/*!*About me*!*/
 @media all and (max-width: 1024px) {
     .about-content h1{
-        top: 500px;
-        left: 175px;
+        left: 330px;
     }
 }
+
 
 @media all and (max-width: 1024px) {
     .progamming-logo img{
-        top: 1550px;
-        left: 70px;
+        left: -120px;
     }
 }
 
 @media all and (max-width: 1024px) {
     .my-details h3{
-        top: 1600px;
-        left: 165px;
+        left: 520px;
     }
 }
+
+/*
+
+
+
+
+
+
+
 
 
 !*Project section*!
