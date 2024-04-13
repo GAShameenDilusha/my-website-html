@@ -1478,15 +1478,15 @@ nav a:hover {
 /*!*contact section*!*/
 @media all and (max-width: 1024px) {
     .contact-content h1{
-        top: 4950px;
-        left: 250px;
+        top: 3190px;
+        left: 350px;
     }
 }
 
 
 @media all and (max-width: 1024px) {
     .form-card {
-        top: 5099px;
+        top: 3399px;
         right: 70px;
     }
 }
