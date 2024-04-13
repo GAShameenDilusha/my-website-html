@@ -1322,6 +1322,104 @@ nav a:hover {
 }
 
 
+/*!*Assignment section*!*/
+@media all and (max-width: 1024px) {
+    .assignment-content h1{
+        top: 1900px;
+        left: 300px;
+    }
+}
+
+
+
+@media all and (max-width: 1024px) {
+    .assignment1 {
+        top: 3400px;
+        left: 30px;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .assignment2 {
+        top: 3620px;
+        left: 10px;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .assignment3 {
+        top: 3620px;
+        right: -310px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .assignment4 {
+        top: 3830px;
+        right: 700px;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .assignment5 {
+        top: 3610px;
+        left: 360px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .assignment6 {
+        top: 3830px;
+        right: 60px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .assignment7 {
+        top: 5055px;
+        right: 55px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .assignment8 {
+        top: 5055px;
+        right: 50px;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .assignment9 {
+        top: 5055px;
+        left: 70px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .assignment10 {
+        top: 5280px;
+        right: 65px;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .assignment11 {
+        top: 5500px;
+        right: 65px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .assignment12 {
+        top: 5500px;
+        right: 50px;
+    }
+}
 
 /*
 
