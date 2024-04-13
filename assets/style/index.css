@@ -1453,27 +1453,6 @@ nav a:hover {
 }
 
 
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media all and (max-width: 1024px) {
     .gallery-content h1 {
         top: 4800px;
@@ -1496,7 +1475,7 @@ nav a:hover {
 }
 
 
-!*contact section*!
+/*!*contact section*!*/
 @media all and (max-width: 1024px) {
     .contact-content h1{
         top: 4950px;
@@ -1511,6 +1490,30 @@ nav a:hover {
         right: 70px;
     }
 }
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 !*footer*!
 @media all and (max-width: 1024px) {
