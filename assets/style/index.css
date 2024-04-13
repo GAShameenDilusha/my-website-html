@@ -1506,29 +1506,43 @@ nav a:hover {
 
 /*phone size - 425px*/
 
+@media all and (max-width: 425px) {
+    .my-profile {
+        left: 60px;
+    }
+}
 
-/*
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .home-content h1{
-        top: 550px;
+        top: 450px;
         left: -165px;
     }
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .home-content h3{
         top: 780px;
-        left: -165px;
+        left: -200px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .home-content  p{
         top: 890px;
-        left: -165px;
+        left: -200px;
     }
 }
+
+@media all and (max-width: 425px) {
+    .social-links {
+        top: 200px;
+        left: 30px;
+    }
+}
+
+/*
+
 
 
 !*About me*!
@@ -1562,12 +1576,6 @@ nav a:hover {
     }
 }
 
-@media all and (max-width: 768px) {
-    .home-content  p{
-        top: 890px;
-        left: -165px;
-    }
-}
 
 @media all and (max-width: 768px) {
     .store-logo  {
