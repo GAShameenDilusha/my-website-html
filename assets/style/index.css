@@ -40,6 +40,7 @@ nav a:hover {
     font-weight: 700;
     line-height: 1.2;
     top: -50px;
+    animation: fadeIn 2s ease forwards;
 }
 
 .home-content h3 {
@@ -48,6 +49,7 @@ nav a:hover {
     font-size: 40px;
     font-weight: 700;
     top: 220px;
+    animation: fadeIn 2s ease forwards;
 }
 
 .home-content p {
