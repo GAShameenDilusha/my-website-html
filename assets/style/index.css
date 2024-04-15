@@ -1731,6 +1731,29 @@ nav a:hover {
     }
 }
 
+
+/*gallery*/
+@media all and (max-width: 768px) {
+    .gallery-content h1 {
+        top: 6520px;
+        left: 80px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .my-musicimg {
+        top: 6680px;
+        left: -10px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .before-after2 {
+        top: 6640px;
+        right: -5px;
+    }
+}
+
 /*
 
 
@@ -1749,26 +1772,7 @@ nav a:hover {
 
 
 
-@media all and (max-width: 768px) {
-    .gallery-content h1 {
-        top: 4800px;
-        left: 250px;
-    }
-}
 
-@media all and (max-width: 768px) {
-    .my-musicimg {
-        top: 5000px;
-        left: 150px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .before-after2 {
-        top: 4980px;
-        right: 10px;
-    }
-}
 
 
 !*contact section*!
