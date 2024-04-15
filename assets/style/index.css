@@ -92,6 +92,19 @@ nav a:hover {
     height: auto;
     margin-bottom: 10px;
     vertical-align: top; /* Align images to the top */
+    animation: slideInFromLeft 1s ease-in-out; /* adjust timing and easing as needed */
+}
+
+/* CSS for animation */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 
