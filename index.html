@@ -548,28 +548,46 @@
 
 
 
-    document.addEventListener("DOMContentLoaded", function() {
-        const assignmentButton = document.querySelector("nav a[href='#assignments']");
-        const assignmentSections = document.querySelectorAll(".assignment-content > div");
-
-        assignmentButton.addEventListener("click", function(event) {
-            event.preventDefault();
-
-            assignmentSections.forEach(function(assignment) {
-                assignment.classList.remove("animate-assignment");
-
-                // Trigger reflow
-                void assignment.offsetWidth;
-
-                assignment.classList.add("animate-assignment");
-            });
+    // Function to add animation class to elements from left to right
+    function addLeftToRightAnimation(selector, animationClass) {
+        const elements = document.querySelectorAll(selector);
+        elements.forEach((element, index) => {
+            element.style.animationDelay = `${index * 0.5}s`; // Adjust the delay as needed
+            element.classList.add(animationClass);
         });
+    }
+
+    // Trigger animations when the page is loaded
+    window.addEventListener('load', () => {
+        // Trigger the assignment animations from left to right
+        addLeftToRightAnimation('.assignment1', 'animate-assignment');
+        addLeftToRightAnimation('.assignment2', 'animate-assignment');
+        addLeftToRightAnimation('.assignment3', 'animate-assignment');
+        addLeftToRightAnimation('.assignment4', 'animate-assignment');
+        addLeftToRightAnimation('.assignment5', 'animate-assignment');
+        addLeftToRightAnimation('.assignment6', 'animate-assignment');
+        addLeftToRightAnimation('.assignment7', 'animate-assignment');
+        addLeftToRightAnimation('.assignment8', 'animate-assignment');
+        addLeftToRightAnimation('.assignment9', 'animate-assignment');
+        addLeftToRightAnimation('.assignment10', 'animate-assignment');
+        addLeftToRightAnimation('.assignment11', 'animate-assignment');
+        addLeftToRightAnimation('.assignment12', 'animate-assignment');
+        // Repeat for other assignments
+
+        // Trigger the h1 animation
+        addAnimationClass('h1', 'animate-h1');
     });
 
 
 
-</script>
 
+
+
+
+
+
+
+</script>
 
 </body>
 </html>
