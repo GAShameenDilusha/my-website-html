@@ -667,6 +667,40 @@
     });
 
 
+    // Function to trigger animation on page load
+    function triggerAnimations() {
+        // Add animation classes to skills elements
+        addAnimationClasses();
+
+        // Add rotation animation to skill logo container
+        addRotationAnimation();
+    }
+
+    // Trigger animations when the page is loaded
+    window.addEventListener('load', () => {
+        triggerAnimations();
+
+        // Event listener for the "Skills" button
+        const skillsButton = document.querySelector('a[href="#skills"]');
+        skillsButton.addEventListener('click', (event) => {
+            // Prevent default behavior of the link
+            event.preventDefault();
+
+            // Remove animation classes from skills elements
+            document.querySelectorAll('.animate-skill, .animate-h1').forEach(element => {
+                element.classList.remove('animate-skill', 'animate-h1');
+                void element.offsetWidth; // Trigger reflow
+                element.classList.add('animate-skill', 'animate-h1'); // Add classes again to trigger animation
+            });
+
+            // Toggle between rotate-left and rotate-right classes for skill logo container
+            const container = document.querySelector('.skill-logo');
+            container.classList.toggle('rotate-left');
+            container.classList.toggle('rotate-right');
+        });
+    });
+
+
 </script>
 
 </body>
