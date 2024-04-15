@@ -456,6 +456,28 @@
 
 </footer>
 
+<script>
+    // Function to handle smooth scrolling
+    function scrollToSection(sectionId) {
+        // Get the section element
+        const section = document.getElementById(sectionId);
+
+        // Scroll to the section smoothly
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Add event listeners to the navigation links
+    document.addEventListener('DOMContentLoaded', function () {
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent default link behavior
+                const targetSectionId = this.getAttribute('href').substring(1); // Get the section ID
+                scrollToSection(targetSectionId); // Scroll to the section
+            });
+        });
+    });
+</script>
 
 </body>
 </html>
