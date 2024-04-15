@@ -1210,6 +1210,38 @@ nav a:hover {
     background: linear-gradient(to bottom, #5048FF, #C95E5E);
 }
 
+/* Define animation for sliding in from top */
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Apply animation to contact content */
+.contact-content.animate-contact {
+    animation: slideInFromTop 1s ease forwards;
+}
+
+/* Apply animation to form elements */
+.form-card.animate-contact {
+    animation: slideInFromTop 1s ease forwards;
+    animation-delay: 0.5s; /* Delay the animation for the form card */
+}
+
+/* Apply animation to form fields */
+.form-card > div.animate-contact {
+    animation: slideInFromTop 1s ease forwards;
+    animation-delay: 1s; /* Delay the animation for each form field */
+}
+
+
+
+
 
 
 /*footer Section*/

@@ -736,6 +736,35 @@
 
 
 
+    //contact
+    document.addEventListener("DOMContentLoaded", function() {
+        const contactButton = document.querySelector("nav a[href='#contact']");
+        const contactContent = document.querySelector(".contact-content");
+        const formCard = document.querySelector(".form-card");
+        const formFields = document.querySelectorAll(".form-card > div");
+
+        contactButton.addEventListener("click", function(event) {
+            event.preventDefault();
+
+            // Remove animation classes
+            contactContent.classList.remove("animate-contact");
+            formCard.classList.remove("animate-contact");
+            formFields.forEach(field => field.classList.remove("animate-contact"));
+
+            // Trigger reflow
+            void contactContent.offsetWidth;
+            void formCard.offsetWidth;
+            formFields.forEach(field => void field.offsetWidth);
+
+            // Add animation classes again
+            contactContent.classList.add("animate-contact");
+            formCard.classList.add("animate-contact");
+            formFields.forEach(field => field.classList.add("animate-contact"));
+        });
+    });
+
+
+
 
 </script>
 
