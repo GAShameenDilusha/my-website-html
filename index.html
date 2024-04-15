@@ -512,6 +512,42 @@
     });
 
 
+    document.addEventListener("DOMContentLoaded", function() {
+        const projectsButton = document.querySelector("nav a[href='#projects']");
+        const projectContent = document.querySelector(".project-content");
+        const projectContentH1 = document.querySelector(".project-content h1");
+        const churchLogo = document.querySelector(".church-logo");
+        const storeLogo = document.querySelector(".store-logo");
+        const chatLogo = document.querySelector(".chat-logo");
+        const beforeAfter = document.querySelector(".before-after");
+
+        projectsButton.addEventListener("click", function(event) {
+            event.preventDefault();
+
+            // Remove existing animation classes
+            projectContent.classList.remove("animate-project");
+            churchLogo.classList.remove("animate-project");
+            storeLogo.classList.remove("animate-project");
+            chatLogo.classList.remove("animate-project");
+            beforeAfter.classList.remove("animate-project");
+            projectContentH1.classList.remove("animate-h1");
+
+            // Trigger reflow
+            void projectContent.offsetWidth;
+            void projectContentH1.offsetWidth;
+
+            // Re-add animation classes to trigger animation
+            projectContent.classList.add("animate-project");
+            churchLogo.classList.add("animate-project");
+            storeLogo.classList.add("animate-project");
+            chatLogo.classList.add("animate-project");
+            beforeAfter.classList.add("animate-project");
+            projectContentH1.classList.add("animate-h1");
+        });
+    });
+
+
+
 
 
 </script>

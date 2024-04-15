@@ -366,7 +366,51 @@ nav a:hover {
     top: -200px;
 }
 
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRightToLeft {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Define animation classes */
+.animate-project {
+    animation: slideInFromLeft 2s ease forwards;
+}
+
+.left-right-animation {
+    animation: slideInFromRight 3s ease forwards;
+}
+
+.animate-h1 {
+    animation: slideInFromRightToLeft 3s ease forwards;
+}
 
 
 /*Assignment Section*/
