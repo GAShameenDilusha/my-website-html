@@ -1075,6 +1075,48 @@ nav a:hover {
 }
 
 
+/* Define animation for sliding in from left */
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Define animation for sliding in from right */
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.animate-gallery {
+    animation: slideInFromLeft 2s ease forwards;
+}
+
+.animate-h1 {
+    animation: slideInFromRightToLeft 2s ease forwards;
+}
+
+/* Apply animations to gallery photos */
+.my-musicimg img {
+    animation: slideInFromLeft 1s ease-out forwards;
+}
+
+/* Apply animations to navigation icons */
+.before-after2 img {
+    animation: slideInFromRight 1s ease-out forwards;
+}
+
+
 
 
 /*contact Section*/

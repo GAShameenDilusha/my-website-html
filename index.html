@@ -701,6 +701,42 @@
     });
 
 
+
+
+
+    //gallery
+    // Function to add animation classes to h1
+    function addH1AnimationClass() {
+        document.getElementById('gallery').classList.add('animate-h1');
+    }
+
+    // Function to remove animation classes from h1
+    function removeH1AnimationClass() {
+        document.getElementById('gallery').classList.remove('animate-h1');
+
+        // Trigger reflow
+        void document.getElementById('gallery').offsetWidth;
+    }
+
+    // Trigger h1 animation when the page is loaded
+    window.addEventListener('load', () => {
+        addH1AnimationClass();
+
+        const galleryButton = document.querySelector('a[href="#gallery"]');
+        galleryButton.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            // Remove animation class from h1
+            removeH1AnimationClass();
+
+            // Re-add animation class to h1 after a short delay
+            setTimeout(addH1AnimationClass, 100); // Adjust the delay as needed
+        });
+    });
+
+
+
+
 </script>
 
 </body>
