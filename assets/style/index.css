@@ -1098,15 +1098,23 @@ nav a:hover {
         opacity: 1;
     }
 }
-.animate-gallery {
+
+/* Apply animation to gallery content */
+.gallery-content.animate-gallery {
     animation: slideInFromLeft 2s ease forwards;
 }
 
-.animate-h1 {
-    animation: slideInFromRightToLeft 2s ease forwards;
+/* Apply animations to gallery items */
+.gallery-item.animate-gallery {
+    animation: slideInFromLeft 2s ease forwards; /* Adjusted animation name */
 }
 
-/* Apply animations to gallery photos */
+/* Apply animations to heading */
+h1.animate-h1 {
+    animation: slideInFromRight 2s ease forwards; /* Corrected animation name */
+}
+
+/* Apply animations to images */
 .my-musicimg img {
     animation: slideInFromLeft 1s ease-out forwards;
 }
@@ -1115,6 +1123,7 @@ nav a:hover {
 .before-after2 img {
     animation: slideInFromRight 1s ease-out forwards;
 }
+
 
 
 

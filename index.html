@@ -705,34 +705,28 @@
 
 
     //gallery
-    // Function to add animation classes to h1
-    function addH1AnimationClass() {
-        document.getElementById('gallery').classList.add('animate-h1');
-    }
+    document.addEventListener("DOMContentLoaded", function() {
+        const galleryButton = document.querySelector("nav a[href='#gallery']");
+        const galleryContent = document.querySelector(".gallery-content");
+        const galleryItems = document.querySelectorAll(".gallery-item");
 
-    // Function to remove animation classes from h1
-    function removeH1AnimationClass() {
-        document.getElementById('gallery').classList.remove('animate-h1');
-
-        // Trigger reflow
-        void document.getElementById('gallery').offsetWidth;
-    }
-
-    // Trigger h1 animation when the page is loaded
-    window.addEventListener('load', () => {
-        addH1AnimationClass();
-
-        const galleryButton = document.querySelector('a[href="#gallery"]');
-        galleryButton.addEventListener('click', (event) => {
+        galleryButton.addEventListener("click", function(event) {
             event.preventDefault();
 
-            // Remove animation class from h1
-            removeH1AnimationClass();
+            // Remove animation classes
+            galleryContent.classList.remove("animate-gallery");
+            galleryItems.forEach(item => item.classList.remove("animate-gallery"));
 
-            // Re-add animation class to h1 after a short delay
-            setTimeout(addH1AnimationClass, 100); // Adjust the delay as needed
+            // Trigger reflow
+            void galleryContent.offsetWidth;
+            galleryItems.forEach(item => void item.offsetWidth);
+
+            // Add animation classes again
+            galleryContent.classList.add("animate-gallery");
+            galleryItems.forEach(item => item.classList.add("animate-gallery"));
         });
     });
+
 
 
 
