@@ -189,6 +189,37 @@ nav a:hover {
 
 }
 
+/* Define animation keyframes */
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Define animation classes */
+.animate-about {
+    animation: slideInFromLeft 2s ease forwards;
+}
+
+.left-right-animation {
+    animation: slideInFromRight 3s ease forwards;
+}
 
 
 

@@ -479,5 +479,43 @@
     });
 </script>
 
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const aboutButton = document.querySelector("nav a[href='#about me']");
+        const aboutContent = document.querySelector(".about-content");
+        const programmingLogo = document.querySelector(".progamming-logo img");
+        const myDetails = document.querySelector(".my-details");
+        const aboutTitle = document.querySelector(".about-content h1");
+
+        aboutButton.addEventListener("click", function(event) {
+            event.preventDefault();
+
+            // Remove animation classes
+            aboutContent.classList.remove("animate-about");
+            programmingLogo.classList.remove("animate-about");
+            myDetails.classList.remove("animate-about");
+            aboutTitle.classList.remove("left-right-animation");
+
+            // Trigger reflow
+            void aboutContent.offsetWidth;
+            void programmingLogo.offsetWidth;
+            void myDetails.offsetWidth;
+            void aboutTitle.offsetWidth;
+
+            // Add animation classes again
+            aboutContent.classList.add("animate-about");
+            programmingLogo.classList.add("animate-about");
+            myDetails.classList.add("animate-about");
+            aboutTitle.classList.add("left-right-animation");
+        });
+    });
+
+
+
+
+</script>
+
+
 </body>
 </html>
