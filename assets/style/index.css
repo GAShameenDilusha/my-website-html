@@ -1754,6 +1754,33 @@ nav a:hover {
     }
 }
 
+
+/*!*contact section*!*/
+@media all and (max-width: 768px) {
+    .contact-content h1{
+        top: 6950px;
+        left: 250px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .form-card {
+        top: 5099px;
+        right: 70px;
+    }
+}
+
+/*!*footer*!*/
+@media all and (max-width: 768px) {
+    .f-all-links {
+        top: 5100px;
+        left: 220px;
+    }
+}
+
+
+
 /*
 
 
@@ -1775,29 +1802,6 @@ nav a:hover {
 
 
 
-!*contact section*!
-@media all and (max-width: 768px) {
-    .contact-content h1{
-        top: 4950px;
-        left: 250px;
-    }
-}
-
-
-@media all and (max-width: 768px) {
-    .form-card {
-        top: 5099px;
-        right: 70px;
-    }
-}
-
-!*footer*!
-@media all and (max-width: 768px) {
-    .f-all-links {
-        top: 5100px;
-        left: 220px;
-    }
-}
 
 */
 
