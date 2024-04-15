@@ -548,7 +548,11 @@
 
 
 
-    // Function to add animation class to elements from left to right
+
+
+
+    //assingments
+    // Function to add left to right animation
     function addLeftToRightAnimation(selector, animationClass) {
         const elements = document.querySelectorAll(selector);
         elements.forEach((element, index) => {
@@ -556,9 +560,8 @@
             element.classList.add(animationClass);
         });
     }
-
-    // Trigger animations when the page is loaded
-    window.addEventListener('load', () => {
+    // Function to trigger animation on page load
+    function triggerAnimations() {
         // Trigger the assignment animations from left to right
         addLeftToRightAnimation('.assignment1', 'animate-assignment');
         addLeftToRightAnimation('.assignment2', 'animate-assignment');
@@ -576,6 +579,26 @@
 
         // Trigger the h1 animation
         addAnimationClass('h1', 'animate-h1');
+    }
+
+    // Trigger animations when the page is loaded
+    window.addEventListener('load', () => {
+        triggerAnimations();
+
+        // Event listener for the "Assignments" button
+        const assignmentsButton = document.querySelector('a[href="#assignments"]');
+        assignmentsButton.addEventListener('click', (event) => {
+            // Prevent default behavior of the link
+            event.preventDefault();
+
+            // Remove animation classes from assignments
+            document.querySelectorAll('.animate-assignment').forEach(element => {
+                element.classList.remove('animate-assignment');
+            });
+
+            // Trigger animations again after a delay
+            setTimeout(triggerAnimations, 100); // Adjust the delay as needed
+        });
     });
 
 
@@ -584,7 +607,64 @@
 
 
 
+    // Function to add animation classes
+    function addAnimationClasses() {
+        // Add animation class to elements
+        document.querySelectorAll('.my-skill').forEach(element => {
+            element.classList.add('animate-skill');
+        });
 
+        document.querySelector('#skills').classList.add('animate-h1');
+    }
+
+    // Trigger animations when the page is loaded
+    window.addEventListener('load', () => {
+        // Add animation classes on page load
+        addAnimationClasses();
+
+        // Event listener for the "Assignments" button
+        const assignmentsButton = document.querySelector('a[href="#assignments"]');
+        assignmentsButton.addEventListener('click', (event) => {
+            // Prevent default behavior of the link
+            event.preventDefault();
+
+            // Remove animation classes
+            document.querySelectorAll('.animate-skill, .animate-h1').forEach(element => {
+                element.classList.remove('animate-skill', 'animate-h1');
+                void element.offsetWidth; // Trigger reflow
+                element.classList.add('animate-skill', 'animate-h1'); // Add classes again to trigger animation
+            });
+        });
+    });
+
+
+
+
+
+    // Function to add rotation animation class to container
+    function addRotationAnimation() {
+        // Add rotation animation class to container
+        const container = document.querySelector('.skill-logo');
+        container.classList.add('rotate-left');
+    }
+
+    // Trigger rotation animation when the page is loaded
+    window.addEventListener('load', () => {
+        // Add rotation animation class on page load
+        addRotationAnimation();
+
+        // Event listener for the "Assignments" button
+        const assignmentsButton = document.querySelector('a[href="#assignments"]');
+        assignmentsButton.addEventListener('click', (event) => {
+            // Prevent default behavior of the link
+            event.preventDefault();
+
+            // Toggle between rotate-left and rotate-right classes
+            const container = document.querySelector('.skill-logo');
+            container.classList.toggle('rotate-left');
+            container.classList.toggle('rotate-right');
+        });
+    });
 
 
 </script>

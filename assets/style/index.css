@@ -953,6 +953,82 @@ nav a:hover {
 
 }
 
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRightToLeft {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Define animation classes */
+.animate-skill {
+    animation: slideInFromLeft 2s ease forwards;
+}
+
+.animate-h1 {
+    animation: slideInFromRightToLeft 2s ease forwards;
+}
+
+
+/* Define animation for rotation */
+/* Define animation for rotating left */
+@keyframes rotateLeft {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(-180deg);
+    }
+}
+
+/* Define animation for rotating right */
+@keyframes rotateRight {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}
+
+/* Apply animation to container */
+.skill-logo.rotate-left {
+    animation: rotateLeft 2s linear ;
+}
+
+.skill-logo.rotate-right {
+    animation: rotateRight 2s linear ;
+}
+
+
+
+
 
 /*Gallery Section*/
 .gallery-content{
