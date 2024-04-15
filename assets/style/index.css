@@ -450,12 +450,15 @@ nav a:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     */
     top: 2770px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment1 h3{
     color: white;
     font-size: 30px;
     margin-bottom: 10px;
+    animation: slideInFromLeftToRight 2s ease forwards;
+
 }
 
 .assignment1 button{
@@ -483,6 +486,7 @@ nav a:hover {
     background: linear-gradient(to bottom, #2E97A7, #2E97A700);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 2990px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment2 h3{
@@ -517,6 +521,7 @@ nav a:hover {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 2990px;
     right: 10px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment3 h3{
@@ -551,6 +556,8 @@ nav a:hover {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 2990px;
     right: 10px;
+    animation: slideInFromLeftToRight 2s ease forwards;
+
 }
 
 .assignment4 h3{
@@ -583,6 +590,7 @@ nav a:hover {
     background: linear-gradient(to bottom, #2E97A7, #2E97A700);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 2980px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment5 h3{
@@ -615,7 +623,9 @@ nav a:hover {
     margin-top: -220px;
     background: linear-gradient(to bottom, #2E97A7, #2E97A700);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    top: 3200px;        }
+    top: 3200px;
+    animation: slideInFromLeftToRight 2s ease forwards;
+}
 
 .assignment6 h3{
     color: white;
@@ -649,6 +659,7 @@ nav a:hover {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 3200px;
     right: 10px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment7 h3{
@@ -683,6 +694,7 @@ nav a:hover {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 3200px;
     right: 10px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment8 h3{
@@ -715,6 +727,7 @@ nav a:hover {
     background: linear-gradient(to bottom, #2E97A7, #2E97A700);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 3182px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment9 h3{
@@ -748,6 +761,7 @@ nav a:hover {
     background: linear-gradient(to bottom, #2E97A7, #2E97A700);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 3400px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment10 h3{
@@ -782,6 +796,7 @@ nav a:hover {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 3400px;
     right: 10px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment11 h3{
@@ -816,12 +831,14 @@ nav a:hover {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     top: 3400px;
     right: 10px;
+    animation: slideInFromLeftToRight 2s ease forwards;
 }
 
 .assignment12 h3{
     color: white;
     font-size: 30px;
     margin-bottom: 10px;
+
 }
 
 .assignment12 button{
@@ -834,6 +851,26 @@ nav a:hover {
     margin-top: 20px;
     background: linear-gradient(to bottom, #FF4848, #4942E4);
 }
+
+
+@keyframes slideInFromLeftToRight {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Define animation class */
+.animate-assignment {
+    animation: slideInFromLeftToRight 4s ease forwards;
+}
+
+
+
 
 
 /*Skill Section*/

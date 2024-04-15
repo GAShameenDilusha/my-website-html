@@ -548,6 +548,24 @@
 
 
 
+    document.addEventListener("DOMContentLoaded", function() {
+        const assignmentButton = document.querySelector("nav a[href='#assignments']");
+        const assignmentSections = document.querySelectorAll(".assignment-content > div");
+
+        assignmentButton.addEventListener("click", function(event) {
+            event.preventDefault();
+
+            assignmentSections.forEach(function(assignment) {
+                assignment.classList.remove("animate-assignment");
+
+                // Trigger reflow
+                void assignment.offsetWidth;
+
+                assignment.classList.add("animate-assignment");
+            });
+        });
+    });
+
 
 
 </script>
