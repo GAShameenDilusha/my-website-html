@@ -485,6 +485,7 @@
 
 
 <script>
+    //about me
     document.addEventListener("DOMContentLoaded", function() {
         const aboutButton = document.querySelector("nav a[href='#about me']");
         const aboutContent = document.querySelector(".about-content");
@@ -516,8 +517,7 @@
     });
 
 
-
-
+    //projects
     document.addEventListener("DOMContentLoaded", function() {
         const projectsButton = document.querySelector("nav a[href='#projects']");
         const projectContent = document.querySelector(".project-content");
@@ -569,11 +569,6 @@
     });
 
 
-
-
-
-
-
     //Assignments
     // Wait for the document to be fully loaded before running the script
     document.addEventListener("DOMContentLoaded", function() {
@@ -592,10 +587,6 @@
         // Trigger animations when the window loads
         triggerAnimations();
     });
-
-
-
-
 
 
 
@@ -632,8 +623,7 @@
 
 
 
-
-
+    //skill
     // Function to add rotation animation class to container
     function addRotationAnimation() {
         // Add rotation animation class to container
@@ -749,17 +739,26 @@
             formFields.forEach(field => field.classList.add("animate-contact"));
         });
     });
-
-
-
-
 </script>
 
-<!--<script>
+
+
+
+
+
+
+<script>
     // Function to handle smooth scrolling
     function scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
         section.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Function to refresh animations
+    function refreshAnimation(element, animationClass) {
+        element.classList.remove(animationClass);
+        void element.offsetWidth; // Trigger reflow
+        element.classList.add(animationClass);
     }
 
     // Add event listeners to the navigation links
@@ -773,38 +772,45 @@
             });
         });
 
-        // Function to refresh animations
-        function refreshAnimation(element, animationClass) {
-            element.classList.remove(animationClass);
-            void element.offsetWidth; // Trigger reflow
-            element.classList.add(animationClass);
+        // Intersection Observer configuration
+        const observerConfig = {
+            rootMargin: '0px', // no margin
+            threshold: 0.5 // halfway into the viewport
+        };
+
+        // Function to observe heading animations
+        function observeHeadingAnimation(headingElement, animationClass) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        refreshAnimation(headingElement, animationClass);
+                    }
+                });
+            }, observerConfig);
+
+            observer.observe(headingElement);
         }
 
-        // About Me section animation
-        const aboutTitle = document.querySelector(".about-content h1");
-        const aboutObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    refreshAnimation(aboutTitle, 'left-right-animation');
-                }
-            });
+        // Observing animations for different sections
+        const headingsToAnimate = [
+            { selector: '.about-content h1', animationClass: 'left-right-animation' },
+            { selector: '.project-content h1', animationClass: 'animate-h1' },
+            { selector: '.assignment-content h1', animationClass: 'animate-h1' },
+            { selector: '.skill-content h1', animationClass: 'animate-h1' },
+            { selector: '.gallery-content h1', animationClass: 'animate-h1' },
+            { selector: '.contact-content h1', animationClass: 'animate-h1' }
+        ];
+
+        // Loop through each heading and observe its animation
+        headingsToAnimate.forEach(item => {
+            const headingElement = document.querySelector(item.selector);
+            if (headingElement) {
+                observeHeadingAnimation(headingElement, item.animationClass);
+            }
         });
-
-        aboutObserver.observe(aboutTitle);
-
-        // Projects section animation
-        const projectContentH1 = document.querySelector(".project-content h1");
-        const projectObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    refreshAnimation(projectContentH1, 'animate-h1');
-                }
-            });
-        });
-
-        projectObserver.observe(projectContentH1);
     });
-</script>-->
+
+</script>
 
 
 
