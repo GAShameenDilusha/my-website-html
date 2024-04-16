@@ -516,6 +516,8 @@
     });
 
 
+
+
     document.addEventListener("DOMContentLoaded", function() {
         const projectsButton = document.querySelector("nav a[href='#projects']");
         const projectContent = document.querySelector(".project-content");
@@ -530,9 +532,9 @@
 
             // Remove existing animation classes
             projectContent.classList.remove("animate-project");
-            churchLogo.classList.remove("animate-project");
-            storeLogo.classList.remove("animate-project");
-            chatLogo.classList.remove("animate-project");
+            churchLogo.classList.remove("animate-project", "rotate-animation");
+            storeLogo.classList.remove("animate-project", "rotate-animation");
+            chatLogo.classList.remove("animate-project", "rotate-animation");
             beforeAfter.classList.remove("animate-project");
             projectContentH1.classList.remove("animate-h1");
 
@@ -547,6 +549,22 @@
             chatLogo.classList.add("animate-project", "rotate-animation");
             beforeAfter.classList.add("animate-project");
             projectContentH1.classList.add("animate-h1");
+
+            // Remove and re-add rotate-animation class to restart rotation
+            setTimeout(() => {
+                churchLogo.classList.remove("rotate-animation");
+                storeLogo.classList.remove("rotate-animation");
+                chatLogo.classList.remove("rotate-animation");
+
+                // Trigger reflow
+                void churchLogo.offsetWidth;
+                void storeLogo.offsetWidth;
+                void chatLogo.offsetWidth;
+
+                churchLogo.classList.add("rotate-animation");
+                storeLogo.classList.add("rotate-animation");
+                chatLogo.classList.add("rotate-animation");
+            }, 10); // Delay to ensure proper reflow
         });
     });
 
