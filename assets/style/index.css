@@ -1898,21 +1898,21 @@ nav a:hover {
 
 
 /*!*About me*!*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .about-content h1{
         top: 650px;
         left: 25px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .progamming-logo img{
         top: 1550px;
         left: 1px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .my-details h3{
         top: 1540px;
         left: 40px;
@@ -1921,35 +1921,35 @@ nav a:hover {
 
 
 /*!*Project section*!*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .project-content h1{
         top: 1550px;
         left: 50px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .store-logo  {
         top: 2560px;
         left: 10px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .church-logo {
         top: 3100px;
         left: 30px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .chat-logo {
         top: 3770px;
         left: 30px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .before-after {
         top: 3500px;
     }
@@ -1957,7 +1957,7 @@ nav a:hover {
 
 
 /*!*Assignment section*!*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment-content h1{
         top: 3300px;
         left: 1px;
@@ -1966,7 +1966,7 @@ nav a:hover {
 
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment1 {
         top: 4650px;
         left: 50px;
@@ -1974,7 +1974,7 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment2 {
         top: 5070px;
         left: -300px;
@@ -1982,14 +1982,14 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment3 {
         top: 5280px;
         right: -275px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment4 {
         top: 5490px;
         right: 75px;
@@ -1997,28 +1997,28 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment5 {
         top: 5490px;
         left: 55px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment6 {
         top: 5930px;
         right: 90px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment7 {
         top: 6150px;
         right: -280px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment8 {
         top: 6365px;
         right: 70px;
@@ -2026,14 +2026,14 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment9 {
         top: 6370px;
         left: 60px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment10 {
         top: 6800px;
         right: 90px;
@@ -2041,14 +2041,14 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment11 {
         top: 7030px;
         right: -280px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .assignment12 {
         top: 7240px;
         right: 70px;
@@ -2057,7 +2057,7 @@ nav a:hover {
 
 
 /*!*Skills Section*!*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .skill-content h1 {
         top: 5800px;
         left: 120px;
@@ -2065,21 +2065,21 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .my-skill {
         top: 6089px;
         left: 50px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .lines {
         top: 5989px;
         left: -50px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .skill-logo {
         top: 8500px;
         right: -110px;
@@ -2088,21 +2088,21 @@ nav a:hover {
 
 
 /*gallery*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .gallery-content h1 {
         top: 6520px;
         left: 80px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .my-musicimg {
         top: 6680px;
         left: -10px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .before-after2 {
         top: 6640px;
         right: -5px;
@@ -2111,7 +2111,7 @@ nav a:hover {
 
 
 /*!*contact section*!*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .contact-content h1{
         top: 6640px;
         left: 60px;
@@ -2119,7 +2119,7 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .form-card {
         top: 6799px;
         right: 70px;
@@ -2127,7 +2127,7 @@ nav a:hover {
 }
 
 /*!*footer*!*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .f-all-links {
         top: 6850px;
         left: 35px;
@@ -2135,7 +2135,7 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     .copyright p{
         top: -180px;
         left: -30px;
@@ -2145,7 +2145,7 @@ nav a:hover {
 
 
 
-
+/*///////////////////////////////////////////////////////////////////*/
 
 
 
