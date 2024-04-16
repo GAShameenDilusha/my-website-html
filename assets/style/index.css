@@ -2207,39 +2207,39 @@ nav a:hover {
     }
 }
 
-
 /*!*Project section*!*/
 @media all and (max-width: 375px) {
     .project-content h1{
         top: 1550px;
-        left: 50px;
+        left: 130px;
     }
 }
 
 @media all and (max-width: 375px) {
     .store-logo  {
         top: 2560px;
-        left: 10px;
+        left: 80px;
     }
 }
 
 @media all and (max-width: 375px) {
     .church-logo {
         top: 3100px;
-        left: 30px;
+        left: 100px;
     }
 }
 
 @media all and (max-width: 375px) {
     .chat-logo {
         top: 3770px;
-        left: 30px;
+        left: 100px;
     }
 }
 
 @media all and (max-width: 375px) {
     .before-after {
-        top: 3500px;
+        top: 3570px;
+        left: 90px;
     }
 }
 
