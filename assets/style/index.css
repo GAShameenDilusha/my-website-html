@@ -413,6 +413,7 @@ nav a:hover {
 }
 
 
+
 /*Assignment Section*/
 .assignment-content{
     max-width: 1000px;
@@ -433,6 +434,7 @@ nav a:hover {
     left: 300px;
 
 }
+
 
 /*assignment1*/
 .assignment1{
@@ -839,6 +841,7 @@ nav a:hover {
     background: linear-gradient(to bottom, #FF4848, #4942E4);
 }
 
+
 @keyframes slideInFromLeft {
     from {
         opacity: 0;
@@ -880,6 +883,9 @@ nav a:hover {
 .animate-h1 {
     animation: slideInFromRightToLeft 2s ease forwards;
 }
+
+
+
 
 
 
@@ -1098,23 +1104,15 @@ nav a:hover {
         opacity: 1;
     }
 }
-
-/* Apply animation to gallery content */
-.gallery-content.animate-gallery {
+.animate-gallery {
     animation: slideInFromLeft 2s ease forwards;
 }
 
-/* Apply animations to gallery items */
-.gallery-item.animate-gallery {
-    animation: slideInFromLeft 2s ease forwards; /* Adjusted animation name */
+.animate-h1 {
+    animation: slideInFromRightToLeft 2s ease forwards;
 }
 
-/* Apply animations to heading */
-h1.animate-h1 {
-    animation: slideInFromRight 2s ease forwards; /* Corrected animation name */
-}
-
-/* Apply animations to images */
+/* Apply animations to gallery photos */
 .my-musicimg img {
     animation: slideInFromLeft 1s ease-out forwards;
 }
@@ -1123,7 +1121,6 @@ h1.animate-h1 {
 .before-after2 img {
     animation: slideInFromRight 1s ease-out forwards;
 }
-
 
 
 

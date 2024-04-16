@@ -456,6 +456,10 @@
 
 </footer>
 
+
+
+
+
 <script>
     // Function to handle smooth scrolling
     function scrollToSection(sectionId) {
@@ -551,54 +555,23 @@
 
 
 
-    //assingments
-    // Function to add left to right animation
-    function addLeftToRightAnimation(selector, animationClass) {
-        const elements = document.querySelectorAll(selector);
-        elements.forEach((element, index) => {
-            element.style.animationDelay = `${index * 0.5}s`; // Adjust the delay as needed
-            element.classList.add(animationClass);
-        });
-    }
-    // Function to trigger animation on page load
-    function triggerAnimations() {
-        // Trigger the assignment animations from left to right
-        addLeftToRightAnimation('.assignment1', 'animate-assignment');
-        addLeftToRightAnimation('.assignment2', 'animate-assignment');
-        addLeftToRightAnimation('.assignment3', 'animate-assignment');
-        addLeftToRightAnimation('.assignment4', 'animate-assignment');
-        addLeftToRightAnimation('.assignment5', 'animate-assignment');
-        addLeftToRightAnimation('.assignment6', 'animate-assignment');
-        addLeftToRightAnimation('.assignment7', 'animate-assignment');
-        addLeftToRightAnimation('.assignment8', 'animate-assignment');
-        addLeftToRightAnimation('.assignment9', 'animate-assignment');
-        addLeftToRightAnimation('.assignment10', 'animate-assignment');
-        addLeftToRightAnimation('.assignment11', 'animate-assignment');
-        addLeftToRightAnimation('.assignment12', 'animate-assignment');
-        // Repeat for other assignments
+    //Assignments
+    // Wait for the document to be fully loaded before running the script
+    document.addEventListener("DOMContentLoaded", function() {
 
-        // Trigger the h1 animation
-        addAnimationClass('h1', 'animate-h1');
-    }
+        // Get the elements you want to animate
+        const assignmentContent = document.querySelector('.assignment-content');
+        const assignmentsHeading = document.querySelector('#assignments');
 
-    // Trigger animations when the page is loaded
-    window.addEventListener('load', () => {
+        // Function to trigger animations
+        function triggerAnimations() {
+            // Add animation classes to elements
+            assignmentContent.classList.add('animate-assignment');
+            assignmentsHeading.classList.add('animate-h1');
+        }
+
+        // Trigger animations when the window loads
         triggerAnimations();
-
-        // Event listener for the "Assignments" button
-        const assignmentsButton = document.querySelector('a[href="#assignments"]');
-        assignmentsButton.addEventListener('click', (event) => {
-            // Prevent default behavior of the link
-            event.preventDefault();
-
-            // Remove animation classes from assignments
-            document.querySelectorAll('.animate-assignment').forEach(element => {
-                element.classList.remove('animate-assignment');
-            });
-
-            // Trigger animations again after a delay
-            setTimeout(triggerAnimations, 100); // Adjust the delay as needed
-        });
     });
 
 
@@ -607,6 +580,7 @@
 
 
 
+    //Skills
     // Function to add animation classes
     function addAnimationClasses() {
         // Add animation class to elements
@@ -761,6 +735,59 @@
 
 
 </script>
+
+<!--<script>
+    // Function to handle smooth scrolling
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Add event listeners to the navigation links
+    document.addEventListener('DOMContentLoaded', function () {
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent default link behavior
+                const targetSectionId = this.getAttribute('href').substring(1); // Get the section ID
+                scrollToSection(targetSectionId); // Scroll to the section
+            });
+        });
+
+        // Function to refresh animations
+        function refreshAnimation(element, animationClass) {
+            element.classList.remove(animationClass);
+            void element.offsetWidth; // Trigger reflow
+            element.classList.add(animationClass);
+        }
+
+        // About Me section animation
+        const aboutTitle = document.querySelector(".about-content h1");
+        const aboutObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    refreshAnimation(aboutTitle, 'left-right-animation');
+                }
+            });
+        });
+
+        aboutObserver.observe(aboutTitle);
+
+        // Projects section animation
+        const projectContentH1 = document.querySelector(".project-content h1");
+        const projectObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    refreshAnimation(projectContentH1, 'animate-h1');
+                }
+            });
+        });
+
+        projectObserver.observe(projectContentH1);
+    });
+</script>-->
+
+
 
 </body>
 </html>
