@@ -186,7 +186,6 @@ nav a:hover {
     margin: 1px 0 40px;
     top: 660px;
     left: 800px;
-
 }
 
 /* Define animation keyframes */
@@ -214,11 +213,11 @@ nav a:hover {
 
 /* Define animation classes */
 .animate-about {
-    animation: slideInFromLeft 2s ease forwards;
+    animation: slideInFromLeft 1s ease forwards;
 }
 
 .left-right-animation {
-    animation: slideInFromRight 3s ease forwards;
+    animation: slideInFromRight 1s ease forwards;
 }
 
 
@@ -2142,30 +2141,6 @@ nav a:hover {
         left: -30px;
     }
 }
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
 
 
 

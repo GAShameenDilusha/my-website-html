@@ -747,6 +747,7 @@
 
 
 
+<!--
 <script>
     // Function to handle smooth scrolling
     function scrollToSection(sectionId) {
@@ -811,7 +812,87 @@
     });
 
 </script>
+-->
 
+
+<script>
+    // Function to handle smooth scrolling
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Function to refresh animations
+    function refreshAnimation(element, animationClass) {
+        element.classList.remove(animationClass);
+        void element.offsetWidth; // Trigger reflow
+        element.classList.add(animationClass);
+    }
+
+    // Add event listeners to the navigation links
+    document.addEventListener('DOMContentLoaded', function () {
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent default link behavior
+                const targetSectionId = this.getAttribute('href').substring(1); // Get the section ID
+                scrollToSection(targetSectionId); // Scroll to the section
+            });
+        });
+
+        // Intersection Observer configuration
+        const observerConfig = {
+            rootMargin: '0px', // no margin
+            threshold: 0.5 // halfway into the viewport
+        };
+
+        // Function to observe heading animations
+        function observeHeadingAnimation(headingElement, animationClass) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        refreshAnimation(headingElement, animationClass);
+                    }
+                });
+            }, observerConfig);
+
+            observer.observe(headingElement);
+        }
+
+        // Observing animations for different sections
+        const headingsToAnimate = [
+            { selector: '.about-content h1', animationClass: 'left-right-animation' },
+            { selector: '.progamming-logo img', animationClass: 'left-right-animation' },
+            { selector: '.my-details', animationClass: 'animate-about' },
+
+            { selector: '.project-content h1', animationClass: 'animate-h1' },
+            { selector: '.church-logo', animationClass: 'rotate-animation' },
+            { selector: '.store-logo', animationClass: 'rotate-animation' },
+            { selector: '.chat-logo', animationClass: 'rotate-animation' },
+
+            { selector: '.assignment-content h1', animationClass: 'animate-h1' },
+
+            { selector: '.skill-content h1', animationClass: 'animate-h1' },
+            { selector: '.my-skill', animationClass: 'animate-h1' },
+            { selector: '.lines', animationClass: 'animate-h1' },
+            { selector: '.skill-logo', animationClass: 'rotate-left' },
+
+            { selector: '.gallery-content h1', animationClass: 'animate-h1' },
+            //{ selector: '.my-musicimg', animationClass: 'animate-h1' },
+
+            { selector: '.contact-content h1', animationClass: 'animate-h1' },
+            { selector: '.form-card', animationClass: 'animate-h1' }
+        ];
+
+        // Loop through each heading and observe its animation
+        headingsToAnimate.forEach(item => {
+            const headingElement = document.querySelector(item.selector);
+            if (headingElement) {
+                observeHeadingAnimation(headingElement, item.animationClass);
+            }
+        });
+    });
+</script>
 
 
 </body>
