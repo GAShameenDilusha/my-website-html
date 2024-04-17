@@ -1506,7 +1506,33 @@ nav a:hover {
     }
 }
 
+/*!*!*Skills Section*!*!*/
+@media all and (max-width: 1440px) {
+    .skill-content h1 {
+        top: 1900px;
+        right: 400px;
+    }
+}
 
+@media all and (max-width: 1440px) {
+    .my-skill {
+        top: 2250px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .lines {
+        top: 2150px;
+
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .skill-logo {
+        top: 4250px;
+
+    }
+}
 /*//////////////////////////////////////////*/
 /*Laptop size - 1440px (Large)*/
 /*
@@ -1519,67 +1545,6 @@ nav a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-!*!*Skills Section*!*!
-@media all and (max-width: 1440px) {
-    .skill-content h1 {
-        top: 2750px;
-        right: 400px;
-    }
-}
-
-
-@media all and (max-width: 1440px) {
-    .my-skill {
-        top: 3000px;
-        left: 50px;
-    }
-}
-
-@media all and (max-width: 1440px) {
-    .lines {
-        top: 2900px;
-        left: -200px;
-    }
-}
-
-@media all and (max-width: 1440px) {
-    .skill-logo {
-        top: 5090px;
-        right: 10px;
-    }
-}
 
 !*gallery section*!
 @media all and (max-width: 1440px) {
