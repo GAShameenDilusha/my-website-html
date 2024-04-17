@@ -2161,15 +2161,17 @@ nav a:hover {
 
 @media all and (max-width: 425px) {
     .home-content h3{
-        top: 780px;
-        left: -200px;
+        top: 800px;
+        left: -190px;
+        font-size: 30px;
     }
 }
 
 @media all and (max-width: 425px) {
     .home-content  p{
         top: 890px;
-        left: -200px;
+        left: -190px;
+        font-size: 19px;
     }
 }
 
