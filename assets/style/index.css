@@ -1410,6 +1410,103 @@ nav a:hover {
 }
 
 
+@media all and (max-width: 1440px) {
+    .before-after {
+        top: 1450px;
+    }
+}
+
+
+/*!*!*Assignment section*!*!*/
+@media all and (max-width: 1440px) {
+    .assignment-content h1{
+        top: 1300px;
+        left: 300px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment1 {
+        top: 2770px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment2 {
+        top: 2990px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment3 {
+        top: 2990px;
+
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment4 {
+        top: 2990px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment5 {
+        top: 2980px;
+
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment6 {
+        top: 3200px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment7 {
+        top: 3200px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment8 {
+        top: 3200px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment9 {
+        top: 3180px;
+
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment10 {
+        top: 3400px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment11 {
+        top: 3400px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment12 {
+        top: 3400px;
+    }
+}
+
+
 /*//////////////////////////////////////////*/
 /*Laptop size - 1440px (Large)*/
 /*
@@ -1433,111 +1530,25 @@ nav a:hover {
 
 
 
-@media all and (max-width: 1440px) {
-    .before-after {
-        top: 2050px;
-    }
-}
-
-
-!*!*Assignment section*!*!
-@media all and (max-width: 1440px) {
-    .assignment-content h1{
-        top: 1900px;
-        left: 300px;
-    }
-}
 
 
 
-@media all and (max-width: 1440px) {
-    .assignment1 {
-        top: 3400px;
-        left: 30px;
-    }
-}
 
 
-@media all and (max-width: 1440px) {
-    .assignment2 {
-        top: 3620px;
-        left: 10px;
-    }
-}
 
 
-@media all and (max-width: 1440px) {
-    .assignment3 {
-        top: 3620px;
-        right: -310px;
-    }
-}
-
-@media all and (max-width: 1440px) {
-    .assignment4 {
-        top: 3830px;
-        right: 700px;
-    }
-}
 
 
-@media all and (max-width: 1440px) {
-    .assignment5 {
-        top: 3610px;
-        left: 360px;
-    }
-}
-
-@media all and (max-width: 1440px) {
-    .assignment6 {
-        top: 3830px;
-        right: 60px;
-    }
-}
-
-@media all and (max-width: 1440px) {
-    .assignment7 {
-        top: 4040px;
-        right: 350px;
-    }
-}
-
-@media all and (max-width: 1440px) {
-    .assignment8 {
-        top: 4040px;
-        right: 370px;
-    }
-}
 
 
-@media all and (max-width: 1440px) {
-    .assignment9 {
-        top: 3820px;
-        left: 690px;
-    }
-}
-
-@media all and (max-width: 1440px) {
-    .assignment10 {
-        top: 4250px;
-        right: 720px;
-    }
-}
 
 
-@media all and (max-width: 1440px) {
-    .assignment11 {
-        top: 4250px;
-        right: 20px;
-    }
-}
 
-@media all and (max-width: 1440px) {
-    .assignment12 {
-        top: 4250px;
-        right: 33px;
-    }
-}
+
+
+
+
+
 
 
 !*!*Skills Section*!*!
