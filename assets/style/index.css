@@ -1533,6 +1533,30 @@ nav a:hover {
 
     }
 }
+
+
+/*!*gallery section*!*/
+@media all and (max-width: 1440px) {
+    .gallery-content h1 {
+        top: 2150px;
+        left: 380px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .my-musicimg {
+        top: 2290px;
+        left: 10px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .before-after2 {
+        top: 2290px;
+        right: -10px;
+    }
+}
+
 /*//////////////////////////////////////////*/
 /*Laptop size - 1440px (Large)*/
 /*
@@ -1546,27 +1570,8 @@ nav a:hover {
 
 
 
-!*gallery section*!
-@media all and (max-width: 1440px) {
-    .gallery-content h1 {
-        top: 3040px;
-        left: 380px;
-    }
-}
 
-@media all and (max-width: 1440px) {
-    .my-musicimg {
-        top: 3190px;
-        left: 60px;
-    }
-}
 
-@media all and (max-width: 1440px) {
-    .before-after2 {
-        top: 3180px;
-        right: -10px;
-    }
-}
 
 
 !*!*contact section*!*!
