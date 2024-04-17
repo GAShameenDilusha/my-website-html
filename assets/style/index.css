@@ -2189,21 +2189,21 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .about-content h1{
         top: 650px;
-        left: -50px;
+        left: -30px;
     }
 }
 
 @media all and (max-width: 375px) {
     .progamming-logo img{
         top: 1550px;
-        left: 90px;
+        left: -2px;
     }
 }
 
 @media all and (max-width: 375px) {
     .my-details h3{
         top: 1540px;
-        left: 130px;
+        left: 30px;
     }
 }
 
