@@ -2147,7 +2147,7 @@ nav a:hover {
 
 /*///////////////////////////////////////////////////////////////////*/
 
-/*phone size - 375px   (Medium)*/
+/*phone size - 320px   (small)*/
 
 @media all and (max-width: 375px) {
     .my-profile {
@@ -2431,8 +2431,289 @@ nav a:hover {
 }
 
 
+/*phone size - 320px (small)*/
+/*phone size - 375px   (Medium)*/
+
+@media all and (max-width: 375px) {
+    .my-profile {
+        left: 50px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .home-content h1{
+        top: 450px;
+        left: -180px;
+    }
+}
 
 
+@media all and (max-width: 375px) {
+    .home-content h3{
+        top: 780px;
+        left: -200px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .home-content  p{
+        top: 890px;
+        left: -190px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .social-links {
+        top: 150px;
+        left: 20px;
+    }
+}
+
+
+/*!*About me*!*/
+@media all and (max-width: 375px) {
+    .about-content h1{
+        top: 650px;
+        left: -30px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .progamming-logo img{
+        top: 1550px;
+        left: -2px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .my-details h3{
+        top: 1540px;
+        left: 30px;
+    }
+}
+
+/*!*Project section*!*/
+@media all and (max-width: 375px) {
+    .project-content h1{
+        top: 1550px;
+        left: 40px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .store-logo  {
+        top: 2560px;
+        left: -10px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .church-logo {
+        top: 3100px;
+        left: 10px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .chat-logo {
+        top: 3770px;
+        left: 10px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .before-after {
+        top: 3570px;
+        left: 1px;
+    }
+}
+
+
+/*!*Assignment section*!*/
+@media all and (max-width: 375px) {
+    .assignment-content h1{
+        top: 3350px;
+        left: 1px;
+    }
+}
+
+
+
+@media all and (max-width: 375px) {
+    .assignment1 {
+        top: 4650px;
+        left: 40px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .assignment2 {
+        top: 5070px;
+        left: -310px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .assignment3 {
+        top: 5280px;
+        right: -310px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .assignment4 {
+        top: 5490px;
+        right: 40px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .assignment5 {
+        top: 5490px;
+        left: 40px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .assignment6 {
+        top: 5930px;
+        right: 60px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .assignment7 {
+        top: 6150px;
+        right: -310px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .assignment8 {
+        top: 6365px;
+        right: 40px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .assignment9 {
+        top: 6370px;
+        left: 40px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .assignment10 {
+        top: 6800px;
+        right: 55px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .assignment11 {
+        top: 7030px;
+        right: -315px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .assignment12 {
+        top: 7240px;
+        right: 36px;
+    }
+}
+
+
+/*!*Skills Section*!*/
+@media all and (max-width: 375px) {
+    .skill-content h1 {
+        top: 5850px;
+        left: 80px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .my-skill {
+        top: 6089px;
+        left: 50px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .lines {
+        top: 5989px;
+        left: -50px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .skill-logo {
+        top: 8500px;
+        right: -110px;
+    }
+}
+
+
+/*gallery*/
+@media all and (max-width: 375px) {
+    .gallery-content h1 {
+        top: 6550px;
+        left: 50px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .my-musicimg {
+        top: 6680px;
+        left: -30px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .before-after2 {
+        top: 6640px;
+        right: -5px;
+    }
+}
+
+
+/*!*contact section*!*/
+@media all and (max-width: 375px) {
+    .contact-content h1{
+        top: 6640px;
+        left: 40px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .form-card {
+        top: 6799px;
+        right: 70px;
+    }
+}
+
+/*!*footer*!*/
+@media all and (max-width: 375px) {
+    .f-all-links {
+        top: 6850px;
+        left: 10px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .copyright p{
+        top: -180px;
+        left: 10px;
+    }
+}
 
 
 
