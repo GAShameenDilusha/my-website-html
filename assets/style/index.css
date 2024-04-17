@@ -2211,35 +2211,35 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .project-content h1{
         top: 1550px;
-        left: 130px;
+        left: 40px;
     }
 }
 
 @media all and (max-width: 375px) {
     .store-logo  {
         top: 2560px;
-        left: 80px;
+        left: -10px;
     }
 }
 
 @media all and (max-width: 375px) {
     .church-logo {
         top: 3100px;
-        left: 100px;
+        left: 10px;
     }
 }
 
 @media all and (max-width: 375px) {
     .chat-logo {
         top: 3770px;
-        left: 100px;
+        left: 10px;
     }
 }
 
 @media all and (max-width: 375px) {
     .before-after {
         top: 3570px;
-        left: 90px;
+        left: 1px;
     }
 }
 
