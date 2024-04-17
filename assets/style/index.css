@@ -2147,7 +2147,7 @@ nav a:hover {
 
 /*///////////////////////////////////////////////////////////////////*/
 
-/*phone size - 320px   (small)*/
+/*phone size - 375px   (Medium)*/
 
 @media all and (max-width: 375px) {
     .my-profile {
@@ -2431,16 +2431,17 @@ nav a:hover {
 }
 
 
+/*/////////////////////////////////////////////////////////////////////////////////////*/
 /*phone size - 320px (small)*/
-/*phone size - 375px   (Medium)*/
 
-@media all and (max-width: 375px) {
+
+@media all and (max-width: 320px) {
     .my-profile {
         left: 50px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .home-content h1{
         top: 450px;
         left: -180px;
@@ -2448,21 +2449,21 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .home-content h3{
         top: 780px;
         left: -200px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .home-content  p{
         top: 890px;
         left: -190px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .social-links {
         top: 150px;
         left: 20px;
@@ -2471,21 +2472,21 @@ nav a:hover {
 
 
 /*!*About me*!*/
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .about-content h1{
         top: 650px;
         left: -30px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .progamming-logo img{
         top: 1550px;
         left: -2px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .my-details h3{
         top: 1540px;
         left: 30px;
@@ -2493,35 +2494,35 @@ nav a:hover {
 }
 
 /*!*Project section*!*/
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .project-content h1{
         top: 1550px;
         left: 40px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .store-logo  {
         top: 2560px;
         left: -10px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .church-logo {
         top: 3100px;
         left: 10px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .chat-logo {
         top: 3770px;
         left: 10px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .before-after {
         top: 3570px;
         left: 1px;
@@ -2530,7 +2531,7 @@ nav a:hover {
 
 
 /*!*Assignment section*!*/
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment-content h1{
         top: 3350px;
         left: 1px;
@@ -2539,98 +2540,98 @@ nav a:hover {
 
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment1 {
         top: 4650px;
-        left: 40px;
+        left: 10px;
     }
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment2 {
         top: 5070px;
-        left: -310px;
+        left: -340px;
     }
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment3 {
         top: 5280px;
-        right: -310px;
+        right: -335px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment4 {
         top: 5490px;
-        right: 40px;
+        right: 15px;
     }
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment5 {
         top: 5490px;
-        left: 40px;
+        left: 5px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment6 {
         top: 5930px;
-        right: 60px;
+        right: 35px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment7 {
         top: 6150px;
-        right: -310px;
+        right: -335px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment8 {
         top: 6365px;
-        right: 40px;
+        right: 15px;
     }
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment9 {
         top: 6370px;
-        left: 40px;
+        left: 10px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment10 {
         top: 6800px;
-        right: 55px;
+        right: 32px;
     }
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment11 {
         top: 7030px;
-        right: -315px;
+        right: -335px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .assignment12 {
         top: 7240px;
-        right: 36px;
+        right: 15px;
     }
 }
 
 
 /*!*Skills Section*!*/
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .skill-content h1 {
         top: 5850px;
         left: 80px;
@@ -2638,21 +2639,21 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .my-skill {
         top: 6089px;
         left: 50px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .lines {
         top: 5989px;
         left: -50px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .skill-logo {
         top: 8500px;
         right: -110px;
@@ -2661,21 +2662,21 @@ nav a:hover {
 
 
 /*gallery*/
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .gallery-content h1 {
         top: 6550px;
         left: 50px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .my-musicimg {
         top: 6680px;
         left: -30px;
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .before-after2 {
         top: 6640px;
         right: -5px;
@@ -2684,7 +2685,7 @@ nav a:hover {
 
 
 /*!*contact section*!*/
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .contact-content h1{
         top: 6640px;
         left: 40px;
@@ -2692,7 +2693,7 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .form-card {
         top: 6799px;
         right: 70px;
@@ -2700,7 +2701,7 @@ nav a:hover {
 }
 
 /*!*footer*!*/
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .f-all-links {
         top: 6850px;
         left: 10px;
@@ -2708,7 +2709,7 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .copyright p{
         top: -180px;
         left: 10px;
