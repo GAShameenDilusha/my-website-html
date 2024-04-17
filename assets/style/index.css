@@ -2151,14 +2151,14 @@ nav a:hover {
 
 @media all and (max-width: 375px) {
     .my-profile {
-        left: 140px;
+        left: 50px;
     }
 }
 
 @media all and (max-width: 375px) {
     .home-content h1{
         top: 450px;
-        left: -95px;
+        left: -180px;
     }
 }
 
@@ -2173,14 +2173,14 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .home-content  p{
         top: 890px;
-        left: -150px;
+        left: -190px;
     }
 }
 
 @media all and (max-width: 375px) {
     .social-links {
         top: 150px;
-        left: 120px;
+        left: 20px;
     }
 }
 
