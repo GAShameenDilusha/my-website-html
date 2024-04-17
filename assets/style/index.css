@@ -1322,6 +1322,279 @@ nav a:hover {
 
 
 
+/*//////////////////////////////////////////*/
+/*Laptop size - 1440px (Large)*/
+@media all and (max-width: 1440px) {
+    .my-profile {
+        left: 78px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .home-content h1{
+        top: -100px;
+        left: -170px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .home-content h3{
+        top: 250px;
+        left: -70px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .home-content p{
+        top: 370px;
+        left: -70px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .social-links {
+        top: 340px;
+        left: 30px;
+    }
+}
+
+/*!*About me*!*/
+@media all and (max-width: 1440px) {
+    .about-content h1{
+        left: 330px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .progamming-logo img{
+        left: -120px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .my-details h3{
+        left: 520px;
+    }
+}
+
+
+/*!*Project section*!*/
+@media all and (max-width: 1440px) {
+    .project-content h1{
+        left: 360px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .store-logo  {
+        left: 70px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .church-logo {
+        left: 560px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .chat-logo {
+        top: 2450px;
+        left: 330px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .before-after {
+        top: 2050px;
+    }
+}
+
+
+/*!*Assignment section*!*/
+@media all and (max-width: 1440px) {
+    .assignment-content h1{
+        top: 1900px;
+        left: 300px;
+    }
+}
+
+
+
+@media all and (max-width: 1440px) {
+    .assignment1 {
+        top: 3400px;
+        left: 30px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment2 {
+        top: 3620px;
+        left: 10px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment3 {
+        top: 3620px;
+        right: -310px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment4 {
+        top: 3830px;
+        right: 700px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment5 {
+        top: 3610px;
+        left: 360px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment6 {
+        top: 3830px;
+        right: 60px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment7 {
+        top: 4040px;
+        right: 350px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment8 {
+        top: 4040px;
+        right: 370px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment9 {
+        top: 3820px;
+        left: 690px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment10 {
+        top: 4250px;
+        right: 720px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .assignment11 {
+        top: 4250px;
+        right: 20px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .assignment12 {
+        top: 4250px;
+        right: 33px;
+    }
+}
+
+
+/*!*Skills Section*!*/
+@media all and (max-width: 1440px) {
+    .skill-content h1 {
+        top: 2750px;
+        right: 400px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .my-skill {
+        top: 3000px;
+        left: 50px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .lines {
+        top: 2900px;
+        left: -200px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .skill-logo {
+        top: 5090px;
+        right: 10px;
+    }
+}
+
+/*gallery section*/
+@media all and (max-width: 1440px) {
+    .gallery-content h1 {
+        top: 3040px;
+        left: 380px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .my-musicimg {
+        top: 3190px;
+        left: 60px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .before-after2 {
+        top: 3180px;
+        right: -10px;
+    }
+}
+
+
+/*!*contact section*!*/
+@media all and (max-width: 1440px) {
+    .contact-content h1{
+        top: 3190px;
+        left: 350px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .form-card {
+        top: 3399px;
+        right: 70px;
+    }
+}
+
+/*!*footer*!*/
+@media all and (max-width: 1440px) {
+    .f-all-links {
+        top: 3400px;
+        left: 340px;
+    }
+}
+
+
+
+/*//////////////////////////////////////////////////////*/
+/*Laptop size - 1024px */
+
+
 @media all and (max-width: 1024px) {
     .my-profile {
         left: 78px;
