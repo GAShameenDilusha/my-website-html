@@ -1359,6 +1359,26 @@ nav a:hover {
     }
 }
 
+
+/*!*!*About me*!*!*/
+@media all and (max-width: 1440px) {
+    .about-content h1{
+        left: 330px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .progamming-logo img{
+        left: 20px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .my-details h3{
+        left: 800px;
+    }
+}
+
 /*//////////////////////////////////////////*/
 /*Laptop size - 1440px (Large)*/
 /*
@@ -1369,25 +1389,12 @@ nav a:hover {
 
 
 
-!*!*About me*!*!
-@media all and (max-width: 1440px) {
-    .about-content h1{
-        left: 330px;
-    }
-}
 
 
-@media all and (max-width: 1440px) {
-    .progamming-logo img{
-        left: -120px;
-    }
-}
 
-@media all and (max-width: 1440px) {
-    .my-details h3{
-        left: 520px;
-    }
-}
+
+
+
 
 
 !*!*Project section*!*!
