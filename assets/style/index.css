@@ -1379,6 +1379,37 @@ nav a:hover {
     }
 }
 
+
+
+/*!*!*Project section*!*!*/
+@media all and (max-width: 1440px) {
+    .project-content h1{
+        left: 360px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .store-logo  {
+        left: 20px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .church-logo {
+        left: 510px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .chat-logo {
+        top: 1840px;
+        left: 970px;
+    }
+}
+
+
 /*//////////////////////////////////////////*/
 /*Laptop size - 1440px (Large)*/
 /*
@@ -1397,31 +1428,10 @@ nav a:hover {
 
 
 
-!*!*Project section*!*!
-@media all and (max-width: 1440px) {
-    .project-content h1{
-        left: 360px;
-    }
-}
 
-@media all and (max-width: 1440px) {
-    .store-logo  {
-        left: 70px;
-    }
-}
 
-@media all and (max-width: 1440px) {
-    .church-logo {
-        left: 560px;
-    }
-}
 
-@media all and (max-width: 1440px) {
-    .chat-logo {
-        top: 2450px;
-        left: 330px;
-    }
-}
+
 
 @media all and (max-width: 1440px) {
     .before-after {
