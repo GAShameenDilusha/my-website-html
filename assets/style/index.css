@@ -1322,6 +1322,9 @@ nav a:hover {
 
 
 
+/*////////////////////////////////////////////////////////////////////////*/
+/*Laptop size - 1440px (Large)*/
+
 @media all and (max-width: 1440px) {
     .my-profile {
         left: -10px;
@@ -1579,35 +1582,10 @@ nav a:hover {
     }
 }
 
-/*//////////////////////////////////////////*/
-/*Laptop size - 1440px (Large)*/
-/*
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
-
-
-/*//////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////*/
 /*Laptop size - 1024px */
-
 
 @media all and (max-width: 1024px) {
     .my-profile {
@@ -1882,6 +1860,13 @@ nav a:hover {
 /*///////////////////////////////////////////////////////////////////////////////////*/
 
 @media all and (max-width: 768px) {
+    .my-profile {
+        left: -25px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
     .home-content h1{
         top: 550px;
         left: -165px;
@@ -1904,11 +1889,19 @@ nav a:hover {
 }
 
 
+@media all and (max-width: 768px) {
+    .social-links {
+        top: 200px;
+        left: 100px;
+    }
+}
+
+
 /*About me*/
 @media all and (max-width: 768px) {
     .about-content h1{
         top: 500px;
-        left: 175px;
+        left: 200px;
     }
 }
 
@@ -1931,7 +1924,7 @@ nav a:hover {
 @media all and (max-width: 768px) {
     .project-content h1{
         top: 1600px;
-        left: 200px;
+        left: 250px;
     }
 }
 
@@ -1984,7 +1977,7 @@ nav a:hover {
 @media all and (max-width: 768px) {
     .assignment1 {
         top: 4200px;
-        left: 50px;
+        left: 60px;
     }
 }
 
@@ -1992,7 +1985,7 @@ nav a:hover {
 @media all and (max-width: 768px) {
     .assignment2 {
         top: 4420px;
-        left: 50px;
+        left: 60px;
     }
 }
 
@@ -2044,7 +2037,7 @@ nav a:hover {
 @media all and (max-width: 768px) {
     .assignment9 {
         top: 5055px;
-        left: 70px;
+        left:60px;
     }
 }
 
@@ -2059,7 +2052,7 @@ nav a:hover {
 @media all and (max-width: 768px) {
     .assignment11 {
         top: 5500px;
-        right: 65px;
+        right: 60px;
     }
 }
 
@@ -2075,7 +2068,7 @@ nav a:hover {
 @media all and (max-width: 768px) {
     .skill-content h1 {
         top: 4000px;
-        right: 300px;
+        left: 290px;
     }
 }
 
@@ -2089,7 +2082,7 @@ nav a:hover {
 
 @media all and (max-width: 768px) {
     .lines {
-        top: 4190px;
+        top: 4199px;
         left: 50px;
     }
 }
@@ -2097,7 +2090,7 @@ nav a:hover {
 @media all and (max-width: 768px) {
     .skill-logo {
         top: 6900px;
-        right: 50px;
+        right: 80px;
     }
 }
 
