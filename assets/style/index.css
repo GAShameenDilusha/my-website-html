@@ -2378,15 +2378,15 @@ nav a:hover {
 /*gallery*/
 @media all and (max-width: 375px) {
     .gallery-content h1 {
-        top: 6520px;
-        left: 80px;
+        top: 6550px;
+        left: 50px;
     }
 }
 
 @media all and (max-width: 375px) {
     .my-musicimg {
         top: 6680px;
-        left: -10px;
+        left: -30px;
     }
 }
 
