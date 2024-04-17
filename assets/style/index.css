@@ -2347,8 +2347,8 @@ nav a:hover {
 /*!*Skills Section*!*/
 @media all and (max-width: 375px) {
     .skill-content h1 {
-        top: 5800px;
-        left: 120px;
+        top: 5850px;
+        left: 80px;
     }
 }
 
