@@ -2402,7 +2402,7 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .contact-content h1{
         top: 6640px;
-        left: 60px;
+        left: 40px;
     }
 }
 
