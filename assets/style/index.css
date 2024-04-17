@@ -2418,7 +2418,7 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .f-all-links {
         top: 6850px;
-        left: 35px;
+        left: 10px;
     }
 }
 
@@ -2426,7 +2426,7 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .copyright p{
         top: -180px;
-        left: -30px;
+        left: 10px;
     }
 }
 
