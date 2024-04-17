@@ -2451,8 +2451,9 @@ nav a:hover {
 
 @media all and (max-width: 375px) {
     .home-content h3{
-        top: 780px;
-        left: -200px;
+        top: 820px;
+        left: -180px;
+        font-size: 25px;
     }
 }
 
@@ -2471,11 +2472,12 @@ nav a:hover {
 }
 
 
+
 /*!*About me*!*/
 @media all and (max-width: 375px) {
     .about-content h1{
         top: 650px;
-        left: -30px;
+        left: 10px;
     }
 }
 
