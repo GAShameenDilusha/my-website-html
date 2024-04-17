@@ -2248,7 +2248,7 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .assignment-content h1{
         top: 3350px;
-        left: 70px;
+        left: 1px;
     }
 }
 
@@ -2257,7 +2257,7 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .assignment1 {
         top: 4650px;
-        left: 125px;
+        left: 40px;
     }
 }
 
@@ -2265,7 +2265,7 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .assignment2 {
         top: 5070px;
-        left: -223px;
+        left: -310px;
     }
 }
 
@@ -2273,14 +2273,14 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .assignment3 {
         top: 5280px;
-        right: -275px;
+        right: -310px;
     }
 }
 
 @media all and (max-width: 375px) {
     .assignment4 {
         top: 5490px;
-        right: 75px;
+        right: 40px;
     }
 }
 
@@ -2288,28 +2288,28 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .assignment5 {
         top: 5490px;
-        left: 55px;
+        left: 40px;
     }
 }
 
 @media all and (max-width: 375px) {
     .assignment6 {
         top: 5930px;
-        right: 90px;
+        right: 60px;
     }
 }
 
 @media all and (max-width: 375px) {
     .assignment7 {
         top: 6150px;
-        right: -280px;
+        right: -310px;
     }
 }
 
 @media all and (max-width: 375px) {
     .assignment8 {
         top: 6365px;
-        right: 70px;
+        right: 40px;
     }
 }
 
@@ -2317,14 +2317,14 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .assignment9 {
         top: 6370px;
-        left: 60px;
+        left: 40px;
     }
 }
 
 @media all and (max-width: 375px) {
     .assignment10 {
         top: 6800px;
-        right: 90px;
+        right: 55px;
     }
 }
 
@@ -2332,14 +2332,14 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .assignment11 {
         top: 7030px;
-        right: -280px;
+        right: -315px;
     }
 }
 
 @media all and (max-width: 375px) {
     .assignment12 {
         top: 7240px;
-        right: 70px;
+        right: 36px;
     }
 }
 
