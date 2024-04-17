@@ -2247,8 +2247,8 @@ nav a:hover {
 /*!*Assignment section*!*/
 @media all and (max-width: 375px) {
     .assignment-content h1{
-        top: 3300px;
-        left: 1px;
+        top: 3350px;
+        left: 70px;
     }
 }
 
@@ -2257,7 +2257,7 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .assignment1 {
         top: 4650px;
-        left: 50px;
+        left: 125px;
     }
 }
 
@@ -2265,7 +2265,7 @@ nav a:hover {
 @media all and (max-width: 375px) {
     .assignment2 {
         top: 5070px;
-        left: -300px;
+        left: -223px;
     }
 }
 
