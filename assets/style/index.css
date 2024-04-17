@@ -1572,6 +1572,13 @@ nav a:hover {
     }
 }
 
+/*!*!*footer*!*!*/
+@media all and (max-width: 1440px) {
+    .f-all-links {
+        top: 2620px;
+    }
+}
+
 /*//////////////////////////////////////////*/
 /*Laptop size - 1440px (Large)*/
 /*
@@ -1594,13 +1601,7 @@ nav a:hover {
 
 
 
-!*!*footer*!*!
-@media all and (max-width: 1440px) {
-    .f-all-links {
-        top: 3400px;
-        left: 340px;
-    }
-}*/
+*/
 
 
 
