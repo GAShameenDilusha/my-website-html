@@ -2826,8 +2826,9 @@ nav a:hover {
 /*!*Assignment section*!*/
 @media all and (max-width: 320px) {
     .assignment-content h1{
-        top: 3350px;
+        top: 3450px;
         left: 1px;
+        font-size: 60px;
     }
 }
 
