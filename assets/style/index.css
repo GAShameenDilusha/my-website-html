@@ -2927,22 +2927,23 @@ nav a:hover {
 /*!*Skills Section*!*/
 @media all and (max-width: 320px) {
     .skill-content h1 {
-        top: 5850px;
-        left: 80px;
+        top: 5950px;
+        left: 70px;
+        font-size: 70px;
     }
 }
 
 
 @media all and (max-width: 320px) {
     .my-skill {
-        top: 6089px;
+        top: 6189px;
         left: 50px;
     }
 }
 
 @media all and (max-width: 320px) {
     .lines {
-        top: 5989px;
+        top: 6090px;
         left: -50px;
     }
 }
@@ -2950,7 +2951,7 @@ nav a:hover {
 @media all and (max-width: 320px) {
     .skill-logo {
         top: 8500px;
-        right: -110px;
+        right: -140px;
     }
 }
 
