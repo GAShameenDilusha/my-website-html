@@ -2732,15 +2732,17 @@ nav a:hover {
 @media all and (max-width: 320px) {
     .home-content h1{
         top: 450px;
-        left: -180px;
+        left: -190px;
+        font-size: 70px;
     }
 }
 
 
 @media all and (max-width: 320px) {
     .home-content h3{
-        top: 780px;
-        left: -200px;
+        top: 810px;
+        left: -190px;
+        font-size: 22px;
     }
 }
 
@@ -2748,6 +2750,7 @@ nav a:hover {
     .home-content  p{
         top: 890px;
         left: -190px;
+        font-size: 17px;
     }
 }
 
@@ -2762,8 +2765,9 @@ nav a:hover {
 /*!*About me*!*/
 @media all and (max-width: 320px) {
     .about-content h1{
-        top: 650px;
-        left: -30px;
+        top: 780px;
+        left: -1px;
+        font-size: 70px;
     }
 }
 
@@ -2776,8 +2780,8 @@ nav a:hover {
 
 @media all and (max-width: 320px) {
     .my-details h3{
-        top: 1540px;
-        left: 30px;
+        top: 1590px;
+        left: 15px;
     }
 }
 
