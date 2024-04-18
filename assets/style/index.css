@@ -2722,7 +2722,86 @@ nav a:hover {
 /*/////////////////////////////////////////////////////////////////////////////////////*/
 /*phone size - 320px (small)*/
 
+@media all and (max-width: 320px) {
+    .navbar {
+        background-color: #333;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .hamburger-menu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+
+    .nav {
+        display: flex;
+        z-index: 999; /* Ensure the dropdown menu is above all other content */
+    }
+
+    .nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .nav a:hover {
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 768px) {
+        .hamburger-menu {
+            display: block;
+        }
+
+        .nav {
+            display: none;
+            flex-direction: column;
+            text-align: center;
+            width: 80px;
+            position: absolute;
+            background-color: #333;
+            top: 60px;
+            left: 0;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        }
+
+        .nav a {
+            margin: 10px 0;
+        }
+
+        .nav.active {
+            display: flex;
+        }
+
+        .hamburger-menu.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+
+        .hamburger-menu.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger-menu.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+    }
+
+}
+
+
+/*Home section*/
 @media all and (max-width: 320px) {
     .my-profile {
         left: 50px;
