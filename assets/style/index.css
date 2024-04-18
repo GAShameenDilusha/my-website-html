@@ -118,6 +118,7 @@ nav a:hover {
     position: relative;
     text-align: right;
     padding: 0;
+    margin-left: 70px;
 }
 
 .my-profile img {
@@ -1862,6 +1863,7 @@ nav a:hover {
 @media all and (max-width: 768px) {
     .my-profile {
         left: -25px;
+        /*margin-left: 150px;*/
     }
 }
 
@@ -2227,7 +2229,16 @@ nav a:hover {
 
 @media all and (max-width: 425px) {
     .my-profile {
-        left: 60px;
+        left: -70px;
+        margin-left: 120px;
+    }
+
+    .my-profile img {
+        max-width: 440px;
+        height: auto;
+        margin-bottom: 10px;
+        vertical-align: top; /* Align images to the top */
+        animation: slideInFromLeft 1s ease-in-out; /* adjust timing and easing as needed */
     }
 }
 
@@ -2598,7 +2609,15 @@ nav a:hover {
 
 @media all and (max-width: 375px) {
     .my-profile {
-        left: 50px;
+        left: -80px;
+        margin-left: 120px;
+    }
+    .my-profile img {
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 10px;
+        vertical-align: top; /* Align images to the top */
+        animation: slideInFromLeft 1s ease-in-out; /* adjust timing and easing as needed */
     }
 }
 
@@ -2966,7 +2985,15 @@ nav a:hover {
 /*Home section*/
 @media all and (max-width: 320px) {
     .my-profile {
-        left: 50px;
+        left: -80px;
+        margin-left: 120px;
+    }
+    .my-profile img {
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 10px;
+        vertical-align: top; /* Align images to the top */
+        animation: slideInFromLeft 1s ease-in-out; /* adjust timing and easing as needed */
     }
 }
 
