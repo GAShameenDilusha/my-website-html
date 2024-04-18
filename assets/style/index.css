@@ -2788,35 +2788,36 @@ nav a:hover {
 /*!*Project section*!*/
 @media all and (max-width: 320px) {
     .project-content h1{
-        top: 1550px;
-        left: 40px;
+        top: 1710px;
+        left: 25px;
+        font-size: 70px;
     }
 }
 
 @media all and (max-width: 320px) {
     .store-logo  {
         top: 2560px;
-        left: -10px;
+        left: -40px;
     }
 }
 
 @media all and (max-width: 320px) {
     .church-logo {
         top: 3100px;
-        left: 10px;
+        left: -20px;
     }
 }
 
 @media all and (max-width: 320px) {
     .chat-logo {
         top: 3770px;
-        left: 10px;
+        left: -20px;
     }
 }
 
 @media all and (max-width: 320px) {
     .before-after {
-        top: 3570px;
+        top: 3610px;
         left: 1px;
     }
 }
