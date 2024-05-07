@@ -185,9 +185,93 @@ nav a:hover {
     color: white;
     font-size: 20px;
     margin: 1px 0 40px;
-    top: 660px;
+    top: 580px;
     left: 800px;
 }
+
+.SName{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #336699;
+    color: #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+
+.SBirth{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #336699;
+    color: #ffffff;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+
+.SContry{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #336699;
+    color: #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.SAddress{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #336699;
+    color: #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+
+.SGmail{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #336699;
+    color: #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.SMobile{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #336699;
+    color: #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+
+
 
 /* Define animation keyframes */
 @keyframes slideInFromLeft {
