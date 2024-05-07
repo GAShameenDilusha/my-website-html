@@ -1993,15 +1993,15 @@ nav a:hover {
 
 @media all and (max-width: 768px) {
     .progamming-logo img{
-        top: 1550px;
+        top: 1510px;
         left: 70px;
     }
 }
 
 @media all and (max-width: 768px) {
     .my-details h3{
-        top: 1600px;
-        left: 165px;
+        top: 1500px;
+        left: 155px;
     }
 }
 
@@ -2346,7 +2346,7 @@ nav a:hover {
     .home-content  p{
         top: 890px;
         left: -190px;
-        font-size: 19px;
+        font-size: 15px;
     }
 }
 
@@ -2361,22 +2361,23 @@ nav a:hover {
 /*!*About me*!*/
 @media all and (max-width: 425px) {
     .about-content h1{
-        top: 650px;
+        top: 520px;
         left: 25px;
     }
 }
 
 @media all and (max-width: 425px) {
     .progamming-logo img{
-        top: 1550px;
+        top: 1450px;
         left: 1px;
     }
 }
 
 @media all and (max-width: 425px) {
     .my-details h3{
-        top: 1540px;
+        top: 1400px;
         left: 40px;
+        font-size: 12px;
     }
 }
 
@@ -2542,7 +2543,7 @@ nav a:hover {
 
 @media all and (max-width: 425px) {
     .skill-logo {
-        top: 8500px;
+        top: 8550px;
         right: -110px;
     }
 }
@@ -2598,8 +2599,9 @@ nav a:hover {
 
 @media all and (max-width: 425px) {
     .copyright p{
-        top: -180px;
-        left: -30px;
+        top: -160px;
+        left: 20px;
+        font-size: 10px;
     }
 }
 
@@ -2725,6 +2727,7 @@ nav a:hover {
     .home-content  p{
         top: 890px;
         left: -190px;
+        font-size: 13.5px;
     }
 }
 
@@ -2740,24 +2743,125 @@ nav a:hover {
 /*!*About me*!*/
 @media all and (max-width: 375px) {
     .about-content h1{
-        top: 650px;
+        top: 570px;
         left: 10px;
     }
 }
 
 @media all and (max-width: 375px) {
     .progamming-logo img{
-        top: 1550px;
+        top: 1450px;
         left: -2px;
     }
 }
 
 @media all and (max-width: 375px) {
     .my-details h3{
-        top: 1540px;
-        left: 30px;
+        top: 1440px;
+        left: 50px;
+        font-size: 11px;
     }
 }
+
+
+
+@media all and (max-width: 375px) {
+    .SName{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .SBirth{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .SContry{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .SAddress{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .SGmail{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 65px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+
+
+@media all and (max-width: 375px) {
+    .SMobile{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+
+
 
 /*!*Project section*!*/
 @media all and (max-width: 375px) {
@@ -2978,8 +3082,8 @@ nav a:hover {
 
 @media all and (max-width: 375px) {
     .copyright p{
-        top: -180px;
-        left: 10px;
+        top: -160px;
+        left: 30px;
     }
 }
 
@@ -3102,7 +3206,7 @@ nav a:hover {
     .home-content  p{
         top: 890px;
         left: -190px;
-        font-size: 17px;
+        font-size: 11.5px;
     }
 }
 
@@ -3117,7 +3221,7 @@ nav a:hover {
 /*!*About me*!*/
 @media all and (max-width: 320px) {
     .about-content h1{
-        top: 780px;
+        top: 580px;
         left: -1px;
         font-size: 70px;
     }
@@ -3125,22 +3229,120 @@ nav a:hover {
 
 @media all and (max-width: 320px) {
     .progamming-logo img{
-        top: 1550px;
+        top: 1450px;
         left: -2px;
     }
 }
 
 @media all and (max-width: 320px) {
     .my-details h3{
-        top: 1590px;
-        left: 15px;
+        top: 1420px;
+        left: 35px;
+        font-size: 10px;
     }
 }
+
+
+@media all and (max-width: 320px) {
+    .SName{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .SBirth{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+    .SContry{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+    .SAddress{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 28px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+    .SGmail{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 28px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
+
+
+@media all and (max-width: 320px) {
+    .SMobile{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background-color: #336699;
+        color: #ffffff;
+        text-align: center;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+}
+
 
 /*!*Project section*!*/
 @media all and (max-width: 320px) {
     .project-content h1{
-        top: 1710px;
+        top: 1590px;
         left: 25px;
         font-size: 70px;
     }
@@ -3169,7 +3371,7 @@ nav a:hover {
 
 @media all and (max-width: 320px) {
     .before-after {
-        top: 3610px;
+        top: 3510px;
         left: 1px;
     }
 }
@@ -3178,7 +3380,7 @@ nav a:hover {
 /*!*Assignment section*!*/
 @media all and (max-width: 320px) {
     .assignment-content h1{
-        top: 3450px;
+        top: 3350px;
         left: 1px;
         font-size: 60px;
     }
@@ -3279,7 +3481,7 @@ nav a:hover {
 /*!*Skills Section*!*/
 @media all and (max-width: 320px) {
     .skill-content h1 {
-        top: 5950px;
+        top: 5850px;
         left: 70px;
         font-size: 70px;
     }
@@ -3288,14 +3490,14 @@ nav a:hover {
 
 @media all and (max-width: 320px) {
     .my-skill {
-        top: 6189px;
+        top: 6089px;
         left: 50px;
     }
 }
 
 @media all and (max-width: 320px) {
     .lines {
-        top: 6090px;
+        top: 5990px;
         left: -50px;
     }
 }
@@ -3361,8 +3563,9 @@ nav a:hover {
 
 @media all and (max-width: 320px) {
     .copyright p{
-        top: -180px;
-        left: 10px;
+        top: -160px;
+        left: 20px;
+        font-size: 8px;
     }
 }
 
